@@ -111,7 +111,7 @@ Interested in collaborating on projects combining:
 
 ### 📫 Contact:
 - 💼 [LinkedIn](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
-- 📧 [Email](mailto:seu_email)
+- 📧 [Email](mailto:lucasdorea.c@outlook.com)
 
 ---
 
