@@ -6,6 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
 [![GitHub followers](https://img.shields.io/github/followers/lucascardoso?style=for-the-badge)](https://github.com/lucascardoso)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=github&logoColor=white)](https://lucasdoreac.github.io/Lucasdoreac/)
 
 ## 🌍 About Me
 
@@ -112,6 +113,7 @@ Interested in collaborating on projects combining:
 ### 📫 Contact:
 - 💼 [LinkedIn](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
 - 📧 [Email](mailto:lucasdorea.c@outlook.com)
+- 🌐 [Portfolio](https://lucasdoreac.github.io/Lucasdoreac/)
 
 ---
 
