@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Dórea Cardoso - Sustainable Tech Developer</title>
+    <style>
+        :root {
+            --primary-color: #2e3440;
+            --secondary-color: #3b4252;
+            --accent-color: #88c0d0;
+            --text-color: #eceff4;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: var(--secondary-color);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1, h2 {
+            color: var(--accent-color);
+        }
+
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .tech-card {
+            background-color: var(--secondary-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--accent-color);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lucas Dórea Cardoso</h1>
+        <p>Sustainable Tech Developer | Environmental Manager</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Environmental Manager turned Computer Science enthusiast, combining expertise in sustainable practices with modern web development. Creating eco-conscious technology solutions that prioritize both environmental impact and technical efficiency.</p>
+        </section>
+
+        <section class="tech-stack">
+            <div class="tech-card">
+                <h2>Backend</h2>
+                <ul>
+                    <li>PHP (Core Modules)</li>
+                    <li>MySQL</li>
+                    <li>Redis</li>
+                </ul>
+            </div>
+
+            <div class="tech-card">
+                <h2>Frontend</h2>
+                <ul>
+                    <li>HTML5/CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+
+            <div class="tech-card">
+                <h2>Sustainability Focus</h2>
+                <ul>
+                    <li>Green Computing</li>
+                    <li>Energy-Efficient Code</li>
+                    <li>Resource Optimization</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Current Projects</h2>
+            <ul>
+                <li>Developing sustainable web applications</li>
+                <li>Creating environmental monitoring tools</li>
+                <li>Implementing green computing practices</li>
+            </ul>
+        </section>
+
+        <div class="social-links">
+            <a href="https://github.com/Lucasdoreac">GitHub</a>
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">LinkedIn</a>
+            <a href="mailto:lucasdorea.c@outlook.com">Email</a>
+        </div>
+    </div>
+</body>
+</html>
