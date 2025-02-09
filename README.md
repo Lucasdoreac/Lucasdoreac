@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Lucas Cardoso
+# 👋 Hello, I'm Lucas Dórea Cardoso
 
 > 🎓 Computer Science Student at UDF | 🌱 Environmental Manager graduated from UCB
 > 
@@ -9,59 +9,63 @@
 
 ## 🌍 About Me
 
-I combine my expertise in Environmental Management with Computer Science to develop sustainable technology solutions. My unique background allows me to create eco-friendly web applications that consider both environmental impact and technical efficiency.
+Environmental Manager turned Computer Science enthusiast, I combine my expertise in sustainable practices with modern web development. My background in Environmental Management from UCB and current studies in Computer Science at UDF enable me to create eco-conscious technology solutions that prioritize both environmental impact and technical efficiency.
 
 ## 🌱 Sustainable Tech Focus
 
-- 🔋 Green Computing Practices
-- ⚡ Energy-Efficient Code
-- 🌿 Sustainable Web Development
+- 🔋 Green Computing & Energy-Efficient Code
+- 🌿 Sustainable Web Development Practices
 - 💻 Eco-friendly Hosting Solutions
 - 📊 Environmental Impact Monitoring
+- ⚡ Resource Optimization
 
 ## 💻 Tech Stack
 
 ```php
 <?php
 
-class SustainableTechStack {
+namespace LucasDorea\SustainableTech;
+
+class TechStack {
     public array $development = [
         'backend' => [
             'PHP' => [
-                'efficient_modules' => [
-                    'bcmath',    // Precise calculations with minimal resources
-                    'redis',     // Reduced server load through caching
-                    'imagick'    // Optimized image processing
+                'core_modules' => [
+                    'bcmath',     // Financial calculations
+                    'imagick',    // Image optimization
+                    'intl',       // Internationalization
+                    'redis',      // Efficient caching
+                    'pdo_mysql'   // Database operations
                 ]
             ],
             'databases' => [
-                'MySQL',        // Optimized for minimal resource usage
-                'Redis'         // In-memory for reduced power consumption
+                'MySQL',         // Optimized queries
+                'Redis'          // Performance caching
             ]
         ],
         'frontend' => [
-            'HTML5/CSS3',       // Optimized assets
-            'JavaScript',       // Efficient DOM manipulation
-            'React'            // Component reusability
+            'HTML5/CSS3',        // Efficient markup
+            'JavaScript',        // Optimized scripts
+            'React'             // Component reuse
         ],
-        'green_practices' => [
-            'cache_optimization',
-            'compressed_assets',
-            'efficient_algorithms',
-            'reduced_carbon_footprint'
+        'sustainability' => [
+            'asset_optimization',
+            'efficient_caching',
+            'minimal_processing',
+            'reduced_bandwidth'
         ]
     ];
 
-    public array $sustainability = [
+    public array $environmentalTech = [
         'monitoring' => [
-            'power_consumption',
-            'server_efficiency',
-            'resource_optimization'
+            'resource_usage',
+            'energy_consumption',
+            'carbon_footprint'
         ],
-        'green_hosting' => [
-            'eco_friendly_providers',
-            'renewable_energy_usage',
-            'optimal_server_location'
+        'optimization' => [
+            'green_hosting',
+            'efficient_algorithms',
+            'sustainable_practices'
         ]
     ];
 }
@@ -79,28 +83,27 @@ class SustainableTechStack {
 
 ## 🎯 Current Focus
 
-- Developing eco-friendly web applications
-- Optimizing code for reduced energy consumption
-- Implementing sustainable development practices
-- Learning green computing methodologies
-- Creating environmental impact monitoring tools
+- 🌱 Developing sustainable web applications
+- ⚡ Optimizing code for energy efficiency
+- 🔋 Implementing green computing practices
+- 📊 Creating environmental monitoring tools
+- 💻 Learning scalable architecture patterns
 
-## 🌿 Sustainable Projects
+## 🌿 Projects & Interests
 
-Working on projects that combine technology and environmental sustainability:
-- 🌱 Green hosting optimization tools
 - 📊 Environmental impact dashboards
-- ⚡ Energy consumption monitoring systems
-- 🔋 Resource-efficient web applications
+- ⚡ Energy-efficient web applications
+- 🌱 Green hosting optimization
+- 💻 Sustainable development practices
 
-## 📚 Academic Background
+## 📚 Education
 
 - 🎓 Computer Science Student at UDF (Centro Universitário do Distrito Federal)
 - 🌍 Environmental Management Graduate from UCB (Universidade Católica de Brasília)
 
 ## 🤝 Let's Connect
 
-I'm always interested in collaborating on projects that combine:
+Interested in collaborating on projects combining:
 - 💻 Web Development
 - 🌱 Environmental Sustainability
 - 🔋 Green Computing
@@ -116,6 +119,6 @@ I'm always interested in collaborating on projects that combine:
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lucascardoso&color=blueviolet)
 
-*"Developing sustainable solutions for a greener digital future"*
+*"Creating sustainable digital solutions for a greener tomorrow"*
 
 </div>
