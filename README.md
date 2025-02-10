@@ -8,4 +8,3 @@
 [![GitHub followers](https://img.shields.io/github/followers/lucascardoso?style=for-the-badge)](https://github.com/lucascardoso)
 [![Portfolio](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=github&logoColor=white)](https://lucasdoreac.github.io)
 
-[Rest of README content...]
