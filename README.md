@@ -6,14 +6,33 @@ Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=react&logoColor=white)](https://lucasdoreac.github.io)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/Lucasdoreac)
 
+## 🧠 AI & Desenvolvimento
+
+### Ferramentas de IA
+![Anthropic Claude](https://img.shields.io/badge/-Claude-4A45FF?style=flat&logo=anthropic&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/-ChatGPT-412991?style=flat&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/-MCP-FF6B6B?style=flat&logo=python&logoColor=white)
+![Midjourney](https://img.shields.io/badge/-Midjourney-000000?style=flat&logo=square&logoColor=white)
+![Sora](https://img.shields.io/badge/-Sora-B7178C?style=flat&logo=openai&logoColor=white)
+
+### Desenvolvimento Web
+![Frontend](https://img.shields.io/badge/-Frontend-61DAFB?style=flat&logo=react&logoColor=black)
+![Backend](https://img.shields.io/badge/-Backend-339933?style=flat&logo=node.js&logoColor=white)
+![Sites Ativos](https://img.shields.io/badge/-Sites%20Ativos-FF4088?style=flat&logo=webflow&logoColor=white)
+
+📌 **Projetos Live:**
+- [luaraujo.com](https://luaraujo.com)
+- [calculadora.luaraujo.com](https://calculadora.luaraujo.com)
+
 ## 🚀 Sobre Mim
 
 > Transformando ideias em soluções tecnológicas sustentáveis
 
 - 🎓 Estudante de Ciência da Computação no UDF Centro Universitário
 - 🌱 Especialista em Gestão Ambiental
-- 💻 Desenvolvedor Full Stack em formação
-- 🔭 Atualmente trabalhando com C, Java e Python
+- 💻 Desenvolvedor Full Stack
+- 🖥️ Mac User & Entusiasta
+- 🤖 Especialista em Integração de IA
 - 🌟 Apaixonado por tecnologia e sustentabilidade
 
 ## 🛠️ Tech Stack
@@ -24,9 +43,9 @@ Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=MySQL&logoColor=white)
 
-### Ferramentas & Tecnologias
+### Ambiente & Ferramentas
+![macOS](https://img.shields.io/badge/-macOS-000000?style=flat&logo=apple&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
@@ -39,7 +58,8 @@ Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante
 
 ## 🎯 Projetos em Destaque
 
-[![Water Quality Analysis](https://github-readme-stats.vercel.app/api/pin/?username=Lucasdoreac&repo=water-quality-analysis&theme=dark)](https://github.com/Lucasdoreac/water-quality-analysis)
+[![Website luaraujo.com](https://github-readme-stats.vercel.app/api/pin/?username=Lucasdoreac&repo=luaraujo-com&theme=dark)](https://luaraujo.com)
+[![Calculadora](https://github-readme-stats.vercel.app/api/pin/?username=Lucasdoreac&repo=calculadora&theme=dark)](https://calculadora.luaraujo.com)
 [![Repair Management](https://github-readme-stats.vercel.app/api/pin/?username=Lucasdoreac&repo=repair-management&theme=dark)](https://github.com/Lucasdoreac/repair-management)
 
 ## 🌱 Contribuições
