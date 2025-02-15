@@ -1,0 +1,12 @@
+{
+  "name": "github-profile",
+  "version": "1.0.0",
+  "description": "Auto-updating GitHub profile",
+  "main": "update_tech_stack.js",
+  "scripts": {
+    "update": "node update_tech_stack.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.7"
+  }
+}
