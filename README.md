@@ -48,6 +48,8 @@ Apaixonado por tecnologia e desenvolvimento, focado em:
   <br/>
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lucasdoreac&theme=github_dark" />
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lucasdoreac&theme=github_dark" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=github-dark-blue&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 ---
