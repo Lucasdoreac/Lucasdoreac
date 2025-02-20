@@ -5,50 +5,38 @@ Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/lucas-dórea-cardoso-771833112)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=react&logoColor=white)](https://lucasdoreac.github.io)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/Lucasdoreac)
+[![Currículo](https://img.shields.io/badge/-Currículo-4285F4?style=flat&logo=google-drive&logoColor=white)](https://lucasdoreac.github.io/assets/curriculum.pdf)
 
-## 🧠 AI & Desenvolvimento
+## 🎓 Educação & Documentação
 
-### Ferramentas de IA
-![Anthropic Claude](https://img.shields.io/badge/-Claude-4A45FF?style=flat&logo=anthropic&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/-ChatGPT-412991?style=flat&logo=openai&logoColor=white)
-![MCP](https://img.shields.io/badge/-MCP-FF6B6B?style=flat&logo=python&logoColor=white)
-![Midjourney](https://img.shields.io/badge/-Midjourney-000000?style=flat&logo=square&logoColor=white)
-![Sora](https://img.shields.io/badge/-Sora-B7178C?style=flat&logo=openai&logoColor=white)
+### [📚 UDF Computação Noturno](https://github.com/Lucasdoreac/udf-computacao-noturno)
+Documentação completa do curso de Ciência da Computação, incluindo:
+- 📝 Materiais de aula e exercícios
+- 💡 Exemplos práticos e implementações
+- 📚 Recursos complementares
+- 🤝 Comunidade de estudo
 
-### Desenvolvimento Web
-![Frontend](https://img.shields.io/badge/-Frontend-61DAFB?style=flat&logo=react&logoColor=black)
-![Backend](https://img.shields.io/badge/-Backend-339933?style=flat&logo=node.js&logoColor=white)
-![Sites Ativos](https://img.shields.io/badge/-Sites%20Ativos-FF4088?style=flat&logo=webflow&logoColor=white)
-
-📌 **Projetos Live:**
-- [luaraujo.com](https://luaraujo.com)
-- [calculadora.luaraujo.com](https://calculadora.luaraujo.com)
-
-## 🚀 Sobre Mim
-
-> Transformando ideias em soluções tecnológicas sustentáveis
-
-- 🎓 Estudante de Ciência da Computação no UDF Centro Universitário
-- 🌱 Especialista em Gestão Ambiental
-- 💻 Desenvolvedor Full Stack
-- 🖥️ Mac User & Entusiasta
-- 🤖 Especialista em Integração de IA
-- 🌟 Apaixonado por tecnologia e sustentabilidade
+### [✍️ Diário de Bordo](https://github.com/Lucasdoreac/udf-computacao-noturno-diario)
+Registro detalhado da jornada acadêmica com:
+- 📖 Anotações diárias
+- 🎯 Objetivos e progresso
+- 💭 Reflexões e aprendizados
 
 ## 🛠️ Tech Stack
 
 ### Linguagens & Frameworks
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
 
-### Ambiente & Ferramentas
-![macOS](https://img.shields.io/badge/-macOS-000000?style=flat&logo=apple&logoColor=white)
+### Ferramentas & Ambiente
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white)
 
 ## 📊 GitHub Stats
 
@@ -62,11 +50,20 @@ Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante
 ## 🎯 Projetos em Destaque
 
 <div align="center">
-  <a href="https://github.com/Lucasdoreac/calculadora">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=calculadora&theme=dracula" />
+  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
   </a>
-  <a href="https://github.com/Lucasdoreac/curriculum-vitae">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=curriculum-vitae&theme=dracula" />
+  <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=dracula" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/code-tracking">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=code-tracking&theme=dracula" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno-diario">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=dracula" />
   </a>
 </div>
 
