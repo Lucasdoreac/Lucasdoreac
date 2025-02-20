@@ -47,26 +47,6 @@ Registro detalhado da jornada acadêmica com:
   </a>
 </div>
 
-## 🎯 Projetos em Destaque
-
-<div align="center">
-  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
-  </a>
-  <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=dracula" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Lucasdoreac/code-tracking">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=code-tracking&theme=dracula" />
-  </a>
-  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno-diario">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=dracula" />
-  </a>
-</div>
-
 ## 🌱 Contribuições
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=dracula)](https://git.io/streak-stats)
