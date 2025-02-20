@@ -12,7 +12,7 @@
   </a>
 </div>
 
-<img align="right" width="35%" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Crystal%20Ball.png" alt="Crystal Ball" width="25" height="25" />
+
 
 ### 👨‍💻 Sobre Mim
 > Estudante de Ciência da Computação & Desenvolvedor
