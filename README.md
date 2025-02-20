@@ -20,55 +20,44 @@
 
 Apaixonado por tecnologia e desenvolvimento, focado em:
 - Ferramentas e automações com MCP/Claude
-- Desenvolvimento web responsivo
+- Desenvolvimento web responsivo 
 - Aplicações financeiras e simuladores
 - Documentação técnica e tutoriais
 
 ## Tecnologias
-
-<div style="display: inline_block">
-  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-</div>
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ## Projetos em Destaque
 
 ### Ferramentas MCP/Claude
-<div align="center">
-  <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
-    <img src="https://anota.dev/api/v1/repository/lucasdoreac/claude-mcp-toolkit?theme=dracula" />
-  </a>
-  <a href="https://github.com/Lucasdoreac/mcp-continuity-tool">
-    <img src="https://anota.dev/api/v1/repository/lucasdoreac/mcp-continuity-tool?theme=dracula" />
-  </a>
-</div>
+[![claude-mcp-toolkit](https://img.shields.io/badge/🔧_Claude_MCP_Toolkit-323330?style=for-the-badge&logo=github)](https://github.com/Lucasdoreac/claude-mcp-toolkit)
+[![mcp-continuity-tool](https://img.shields.io/badge/🔄_MCP_Continuity_Tool-323330?style=for-the-badge&logo=github)](https://github.com/Lucasdoreac/mcp-continuity-tool)
 
 ### Desenvolvimento Web
-<div align="center">
-  <a href="https://github.com/Lucasdoreac/lucasdoreac.github.io">
-    <img src="https://anota.dev/api/v1/repository/lucasdoreac/lucasdoreac.github.io?theme=dracula" />
-  </a>
-  <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
-    <img src="https://anota.dev/api/v1/repository/lucasdoreac/MCP-Calculadoras?theme=dracula" />
-  </a>
-</div>
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio_Site-323330?style=for-the-badge&logo=html5)](https://github.com/Lucasdoreac/lucasdoreac.github.io)
+[![MCP Calculadoras](https://img.shields.io/badge/📊_MCP_Calculadoras-323330?style=for-the-badge&logo=javascript)](https://github.com/Lucasdoreac/MCP-Calculadoras)
 
 ## Estatísticas
 
 <div align="center">
-  <img src="https://anota.dev/api/v1/profile/lucasdoreac?theme=dracula" />
-  <img src="https://anota.dev/api/v1/languages/lucasdoreac?theme=dracula" />
+  <a href="https://github.com/lucasdoreac">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasdoreac&show_icons=true&include_all_commits=true&count_private=true&title_color=ff6e96&icon_color=79dafa&text_color=c9d1d9&bg_color=282a36"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&title_color=ff6e96&icon_color=79dafa&text_color=c9d1d9&bg_color=282a36"/>
+  </a>
 </div>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=lucasdoreac&theme=dracula&hide_border=true" />
+  <a href="https://github.com/lucasdoreac">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=dracula&hide_border=true&background=282a36&stroke=79dafa&ring=ff6e96&fire=ff6e96&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=c9d1d9"/>
+  </a>
 </p>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=blueviolet&style=for-the-badge" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=ff6e96&style=for-the-badge" alt="Profile views"/>
 </div>
