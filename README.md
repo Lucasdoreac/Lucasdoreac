@@ -39,32 +39,32 @@ Apaixonado por tecnologia e desenvolvimento, focado em:
 ### Ferramentas MCP/Claude
 <div align="center">
   <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
-    <img align="center" src="https://awesome-github-stats.azurewebsites.net/user-stats/lucasdoreac/repo=claude-mcp-toolkit&cardType=level&theme=dracula" />
+    <img src="https://anota.dev/api/v1/repository/lucasdoreac/claude-mcp-toolkit?theme=dracula" />
   </a>
   <a href="https://github.com/Lucasdoreac/mcp-continuity-tool">
-    <img align="center" src="https://awesome-github-stats.azurewebsites.net/user-stats/lucasdoreac/repo=mcp-continuity-tool&cardType=level&theme=dracula" />
+    <img src="https://anota.dev/api/v1/repository/lucasdoreac/mcp-continuity-tool?theme=dracula" />
   </a>
 </div>
 
 ### Desenvolvimento Web
 <div align="center">
   <a href="https://github.com/Lucasdoreac/lucasdoreac.github.io">
-    <img align="center" src="https://awesome-github-stats.azurewebsites.net/user-stats/lucasdoreac/repo=lucasdoreac.github.io&cardType=level&theme=dracula" />
+    <img src="https://anota.dev/api/v1/repository/lucasdoreac/lucasdoreac.github.io?theme=dracula" />
   </a>
   <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
-    <img align="center" src="https://awesome-github-stats.azurewebsites.net/user-stats/lucasdoreac/repo=MCP-Calculadoras&cardType=level&theme=dracula" />
+    <img src="https://anota.dev/api/v1/repository/lucasdoreac/MCP-Calculadoras?theme=dracula" />
   </a>
 </div>
 
 ## Estatísticas
 
 <div align="center">
-  <img align="center" src="https://awesome-github-stats.azurewebsites.net/user-stats/lucasdoreac?theme=dracula&cardType=github" />
-  <img align="center" src="https://awesome-github-stats.azurewebsites.net/user-stats/lucasdoreac?theme=dracula&cardType=languages" />
+  <img src="https://anota.dev/api/v1/profile/lucasdoreac?theme=dracula" />
+  <img src="https://anota.dev/api/v1/languages/lucasdoreac?theme=dracula" />
 </div>
 
 <p align="center">
-  <img align="center" src="https://streak-stats.demolab.com/?user=lucasdoreac&theme=dracula" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=lucasdoreac&theme=dracula&hide_border=true" />
 </p>
 
 ---
