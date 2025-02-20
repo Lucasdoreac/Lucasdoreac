@@ -54,7 +54,11 @@ Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante
 
 ## 🌱 Contribuições
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=dracula)](https://git.io/streak-stats)
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=lucasdoreac&theme=dracula&background=282A36&border=BD93F9&stroke=BD93F9&ring=DD6387&fire=DD6387&currStreakNum=F8F8F2&sideNums=F8F8F2&currStreakLabel=F8F8F2&sideLabels=F8F8F2&dates=6272A4"/>
+  </a>
+</p>
 
 ## 📫 Contato
 
