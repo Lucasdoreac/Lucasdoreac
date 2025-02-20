@@ -7,6 +7,26 @@ Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/Lucasdoreac)
 [![Currículo](https://img.shields.io/badge/-Currículo-4285F4?style=flat&logo=google-drive&logoColor=white)](https://lucasdoreac.github.io/assets/curriculum.pdf)
 
+## 🎯 Projetos em Destaque
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno-diario">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=dracula" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/literatura-inglesa-norte-americana">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=literatura-inglesa-norte-americana&theme=dracula" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
+  </a>
+</div>
+
 ## 🎓 Educação & Documentação
 
 ### [📚 UDF Computação Noturno](https://github.com/Lucasdoreac/udf-computacao-noturno)
