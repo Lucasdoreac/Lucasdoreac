@@ -1,50 +1,24 @@
-# Olá! 👋 Eu sou Lucas Dórea Cardoso
-
-Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante de Ciência da Computação
+# Lucas Dórea Cardoso
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/lucas-dórea-cardoso-771833112)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=react&logoColor=white)](https://lucasdoreac.github.io)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/Lucasdoreac)
 [![Currículo](https://img.shields.io/badge/-Currículo-4285F4?style=flat&logo=google-drive&logoColor=white)](https://lucasdoreac.github.io/assets/curriculum.pdf)
 
-## 🎯 Projetos em Destaque
+## Sobre Mim
+Desenvolvedor de Software e Estudante de Ciência da Computação, focado em criar soluções tecnológicas sustentáveis e inovadoras. Apaixonado por aprendizado contínuo e desenvolvimento de software de qualidade.
 
-<div align="center">
-  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
-  </a>
-  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno-diario">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=dracula" />
-  </a>
-</div>
+## Principais Projetos
 
-<div align="center">
-  <a href="https://github.com/Lucasdoreac/literatura-inglesa-norte-americana">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=literatura-inglesa-norte-americana&theme=dracula" />
-  </a>
-  <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
-  </a>
-</div>
+### Educacionais
+- [**UDF Computação Noturno**](https://github.com/Lucasdoreac/udf-computacao-noturno) - Documentação completa do curso de Ciência da Computação
+- [**Diário de Computação**](https://github.com/Lucasdoreac/udf-computacao-noturno-diario) - Registro detalhado da jornada acadêmica
+- [**Literatura Inglesa**](https://github.com/Lucasdoreac/literatura-inglesa-norte-americana) - Estudos sobre literatura inglesa e norte-americana
+- [**Claude MCP Toolkit**](https://github.com/Lucasdoreac/claude-mcp-toolkit) - Ferramentas para desenvolvimento com IA
 
-## 🎓 Educação & Documentação
+## Tecnologias
 
-### [📚 UDF Computação Noturno](https://github.com/Lucasdoreac/udf-computacao-noturno)
-Documentação completa do curso de Ciência da Computação, incluindo:
-- 📝 Materiais de aula e exercícios
-- 💡 Exemplos práticos e implementações
-- 📚 Recursos complementares
-- 🤝 Comunidade de estudo
-
-### [✍️ Diário de Bordo](https://github.com/Lucasdoreac/udf-computacao-noturno-diario)
-Registro detalhado da jornada acadêmica com:
-- 📖 Anotações diárias
-- 🎯 Objetivos e progresso
-- 💭 Reflexões e aprendizados
-
-## 🛠️ Tech Stack
-
-### Linguagens & Frameworks
+### Desenvolvimento
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
@@ -52,32 +26,25 @@ Registro detalhado da jornada acadêmica com:
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
 
-### Ferramentas & Ambiente
+### Ferramentas
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white)
 
-## 📊 GitHub Stats
+## Estatísticas do GitHub
 
 <div align="center">
-  <a href="https://github.com/Lucasdoreac">
-    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=false&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
-  </a>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=false&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
 </div>
-
-## 🌱 Contribuições
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=dracula)](https://git.io/streak-stats)
 
-## 📫 Contato
-
-- 📧 Email: lucasdorea.c@outlook.com
-- 💼 LinkedIn: [lucas-dórea-cardoso](https://linkedin.com/in/lucas-dórea-cardoso-771833112)
-- 🌐 Portfolio: [lucasdoreac.github.io](https://lucasdoreac.github.io)
-
----
+## Contato
+📧 lucasdorea.c@outlook.com
+🌐 [Portfolio](https://lucasdoreac.github.io)
+💼 [LinkedIn](https://linkedin.com/in/lucas-dórea-cardoso-771833112)
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=blueviolet" alt="Profile views"/>
