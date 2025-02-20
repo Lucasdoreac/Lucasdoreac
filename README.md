@@ -39,32 +39,32 @@ Apaixonado por tecnologia e desenvolvimento, focado em:
 ### Ferramentas MCP/Claude
 <div align="center">
   <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
+    <img height="120em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
   </a>
   <a href="https://github.com/Lucasdoreac/mcp-continuity-tool">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=mcp-continuity-tool&theme=dracula" />
+    <img height="120em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=lucasdoreac&repo=mcp-continuity-tool&theme=dracula" />
   </a>
 </div>
 
 ### Desenvolvimento Web
 <div align="center">
   <a href="https://github.com/Lucasdoreac/lucasdoreac.github.io">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=lucasdoreac.github.io&theme=dracula" />
+    <img height="120em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=lucasdoreac&repo=lucasdoreac.github.io&theme=dracula" />
   </a>
   <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=dracula" />
+    <img height="120em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=dracula" />
   </a>
 </div>
 
 ## Estatísticas
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=lucasdoreac&theme=dracula" alt="GitHub Streak"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=dracula" alt="GitHub Streak"/>
 </p>
 
 ---
