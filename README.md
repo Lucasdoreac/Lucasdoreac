@@ -37,10 +37,10 @@ Apaixonado por tecnologia e inovação, busco constantemente aprender e aplicar 
 
 <div align="center">
   <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=github_dark&hide_border=true" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
   </a>
   <a href="https://github.com/Lucasdoreac/udf-computacao-noturno-diario">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=github_dark&hide_border=true" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=dracula" />
   </a>
 </div>
 
@@ -48,26 +48,24 @@ Apaixonado por tecnologia e inovação, busco constantemente aprender e aplicar 
 
 <div align="center">
   <a href="https://github.com/Lucasdoreac/literatura-inglesa-norte-americana">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=literatura-inglesa-norte-americana&theme=github_dark&hide_border=true" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=literatura-inglesa-norte-americana&theme=dracula" />
   </a>
   <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=github_dark&hide_border=true" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
   </a>
 </div>
 
 ## Estatísticas
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasdoreac&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&theme=github_dark&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=lucasdoreac&theme=github-dark-blue&hide_border=true" />
-</p>
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=lucasdoreac&theme=dracula)](https://git.io/streak-stats)
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=blue&style=for-the-badge" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=blueviolet&style=for-the-badge" alt="Profile views"/>
 </div>
