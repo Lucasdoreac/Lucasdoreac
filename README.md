@@ -16,25 +16,28 @@
 
 ## Sobre Mim
 
-> Desenvolvedor de Software & Estudante de Ciência da Computação
+> Estudante de Ciência da Computação & Desenvolvedor de Conteúdo Técnico
 
-Apaixonado por tecnologia e inovação, busco constantemente aprender e aplicar novos conhecimentos. Atualmente focado em desenvolvimento web e soluções tecnológicas sustentáveis.
+Apaixonado por tecnologia, educação e documentação técnica. Atualmente focado em:
+- Desenvolvimento de material educacional para computação
+- Documentação técnica e gestão de conhecimento
+- Desenvolvimento web com foco em educação
+- Análise e pesquisa em tecnologias emergentes
 
-## Tecnologias
+## Áreas de Atuação
 
 <div style="display: inline_block">
+  <img align="center" alt="Documentation" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg">
   <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
   <img align="center" alt="VSCode" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
   <img align="center" alt="Linux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
 </div>
 
-## Principais Projetos
+## Projetos em Destaque
 
+### Documentação e Educação
 <div align="center">
   <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
@@ -44,14 +47,13 @@ Apaixonado por tecnologia e inovação, busco constantemente aprender e aplicar 
   </a>
 </div>
 
-<br/>
-
+### Ferramentas e Análise
 <div align="center">
-  <a href="https://github.com/Lucasdoreac/literatura-inglesa-norte-americana">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=literatura-inglesa-norte-americana&theme=dracula" />
-  </a>
   <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/reddit-language-analysis">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=reddit-language-analysis&theme=dracula" />
   </a>
 </div>
 
