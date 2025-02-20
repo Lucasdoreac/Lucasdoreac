@@ -35,11 +35,13 @@ Desenvolvedor de Software e Estudante de Ciência da Computação, focado em cri
 ## Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=false&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=false&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula&hide_border=true"/>
 </div>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=dracula)](https://git.io/streak-stats)
+<div align="center">
+  <img width="830em" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasdoreac&theme=dracula&hide_border=true" alt="lucasdoreac's streak"/>
+</div>
 
 ## Contato
 📧 lucasdorea.c@outlook.com
