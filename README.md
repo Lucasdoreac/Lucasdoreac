@@ -62,7 +62,9 @@ Apaixonado por tecnologia e inovação, busco constantemente aprender e aplicar 
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=lucasdoreac&theme=dracula)](https://git.io/streak-stats)
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=lucasdoreac&theme=dracula" alt="GitHub Streak"/>
+</p>
 
 ---
 
