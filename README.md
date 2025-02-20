@@ -16,44 +16,43 @@
 
 ## Sobre Mim
 
-> Estudante de Ciência da Computação & Desenvolvedor de Conteúdo Técnico
+> Estudante de Ciência da Computação & Desenvolvedor
 
-Apaixonado por tecnologia, educação e documentação técnica. Atualmente focado em:
-- Desenvolvimento de material educacional para computação
-- Documentação técnica e gestão de conhecimento
-- Desenvolvimento web com foco em educação
-- Análise e pesquisa em tecnologias emergentes
+Apaixonado por tecnologia e desenvolvimento, focado em:
+- Ferramentas e automações com MCP/Claude
+- Desenvolvimento web responsivo
+- Aplicações financeiras e simuladores
+- Documentação técnica e tutoriais
 
-## Áreas de Atuação
+## Tecnologias
 
 <div style="display: inline_block">
-  <img align="center" alt="Documentation" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg">
   <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-  <img align="center" alt="VSCode" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
-  <img align="center" alt="Linux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
 </div>
 
 ## Projetos em Destaque
 
-### Documentação e Educação
-<div align="center">
-  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
-  </a>
-  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno-diario">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=dracula" />
-  </a>
-</div>
-
-### Ferramentas e Análise
+### Ferramentas MCP/Claude
 <div align="center">
   <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
   </a>
-  <a href="https://github.com/Lucasdoreac/reddit-language-analysis">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=reddit-language-analysis&theme=dracula" />
+  <a href="https://github.com/Lucasdoreac/mcp-continuity-tool">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=mcp-continuity-tool&theme=dracula" />
+  </a>
+</div>
+
+### Desenvolvimento Web
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/lucasdoreac.github.io">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=lucasdoreac.github.io&theme=dracula" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=dracula" />
   </a>
 </div>
 
