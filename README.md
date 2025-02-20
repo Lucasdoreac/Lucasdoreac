@@ -1,67 +1,73 @@
-# Olá! 👋 Eu sou Lucas Dórea Cardoso
+# Lucas Dórea Cardoso
 
-Desenvolvedor de Software & Especialista em Soluções Sustentáveis | Estudante de Ciência da Computação
+<div align="center">
+  <p align="center">
+    <a href="https://linkedin.com/in/lucas-dórea-cardoso-771833112">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    <a href="mailto:lucasdorea.c@outlook.com">
+      <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" />
+    </a>
+    <a href="https://lucasdoreac.github.io">
+      <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" />
+    </a>
+  </p>
+</div>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/lucas-dórea-cardoso-771833112)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=react&logoColor=white)](https://lucasdoreac.github.io)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/Lucasdoreac)
-[![Currículo](https://img.shields.io/badge/-Currículo-4285F4?style=flat&logo=google-drive&logoColor=white)](https://lucasdoreac.github.io/assets/curriculum.pdf)
+## Sobre Mim
 
-## 🎯 Projetos em Destaque
+> Desenvolvedor de Software & Estudante de Ciência da Computação
+
+Apaixonado por tecnologia e inovação, busco constantemente aprender e aplicar novos conhecimentos. Atualmente focado em desenvolvimento web e soluções tecnológicas sustentáveis.
+
+## Tecnologias
+
+<div style="display: inline_block">
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+  <img align="center" alt="VSCode" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
+  <img align="center" alt="Linux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
+</div>
+
+## Principais Projetos
 
 <div align="center">
   <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=dracula" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=github_dark&hide_border=true" />
   </a>
   <a href="https://github.com/Lucasdoreac/udf-computacao-noturno-diario">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=dracula" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno-diario&theme=github_dark&hide_border=true" />
   </a>
 </div>
+
+<br/>
 
 <div align="center">
   <a href="https://github.com/Lucasdoreac/literatura-inglesa-norte-americana">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=literatura-inglesa-norte-americana&theme=dracula" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=literatura-inglesa-norte-americana&theme=github_dark&hide_border=true" />
   </a>
   <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=dracula" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=github_dark&hide_border=true" />
   </a>
 </div>
 
-## 🛠️ Tech Stack
-
-### Linguagens & Frameworks
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
-
-### Ferramentas & Ambiente
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white)
-
-## 📊 GitHub Stats
+## Estatísticas
 
 <div align="center">
-  <a href="https://github.com/Lucasdoreac">
-    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=lucasdoreac&show_icons=true&theme=dracula&include_all_commits=false&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&langs_count=7&theme=dracula"/>
-  </a>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasdoreac&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdoreac&layout=compact&theme=github_dark&hide_border=true"/>
 </div>
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=lucasdoreac&theme=dracula)](https://git.io/streak-stats)
-
-## 📫 Contato
-
-- 📧 Email: lucasdorea.c@outlook.com
-- 💼 LinkedIn: [lucas-dórea-cardoso](https://linkedin.com/in/lucas-dórea-cardoso-771833112)
-- 🌐 Portfolio: [lucasdoreac.github.io](https://lucasdoreac.github.io)
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=lucasdoreac&theme=github-dark-blue&hide_border=true" />
+</p>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=blueviolet" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=blue&style=for-the-badge" alt="Profile views"/>
 </div>
