@@ -12,8 +12,6 @@
   </a>
 </div>
 
-
-
 ### 👨‍💻 Sobre Mim
 > Estudante de Ciência da Computação & Desenvolvedor
 
@@ -32,9 +30,11 @@ Apaixonado por tecnologia e desenvolvimento, focado em:
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </div>
 
-### 🌟 Projetos em Destaque
+## 📂 Repositórios Organizados por Categoria
 
-#### 🤖 Ferramentas MCP/Claude
+### 🤖 Ferramentas MCP/Claude
+Projetos focados em automação e produtividade com Claude e MCP:
+
 <div align="center">
   <a href="https://github.com/Lucasdoreac/claude-mcp-toolkit">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=claude-mcp-toolkit&theme=github_dark" />
@@ -44,17 +44,95 @@ Apaixonado por tecnologia e desenvolvimento, focado em:
   </a>
 </div>
 
-#### 🌐 Desenvolvimento Web
+### 🌐 Websites e Portfólios
+Desenvolvimento web e projetos pessoais:
+
 <div align="center">
   <a href="https://github.com/Lucasdoreac/lucasdoreac.github.io">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=lucasdoreac.github.io&theme=github_dark" />
   </a>
-  <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=github_dark" />
+  <a href="https://github.com/Lucasdoreac/curriculum-vitae">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=curriculum-vitae&theme=github_dark" />
   </a>
 </div>
 
-### 📊 GitHub Stats
+### 💰 Calculadoras e Simuladores Financeiros
+Ferramentas para análise financeira e simulação de investimentos:
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/MCP-Calculadoras">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/Calculadora_Financeira_Luaraujo.com">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=Calculadora_Financeira_Luaraujo.com&theme=github_dark" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/calculadora-luciana">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=calculadora-luciana&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/Calculadora_Financeira_Basic">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=Calculadora_Financeira_Basic&theme=github_dark" />
+  </a>
+</div>
+
+### 🎓 Projetos Educacionais
+Materiais de estudo, documentação de cursos e sites educativos:
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/fundamentos-uml">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=fundamentos-uml&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/programacao-orientada-objetos">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=programacao-orientada-objetos&theme=github_dark" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/udf-computacao-noturno">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=udf-computacao-noturno&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/learning-platform">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=learning-platform&theme=github_dark" />
+  </a>
+</div>
+
+### 🖥️ Projetos Comerciais e Sites
+Desenvolvimento de sites para negócios e projetos comerciais:
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/taverna-da-impressao-site">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=taverna-da-impressao-site&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/luaraujo.com">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=luaraujo.com&theme=github_dark" />
+  </a>
+</div>
+
+### 📊 Análise de Dados e Pesquisa
+Projetos focados em análise e pesquisa:
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/reddit-language-analysis">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=reddit-language-analysis&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/magia-negra-analysis">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=magia-negra-analysis&theme=github_dark" />
+  </a>
+</div>
+
+### 🗄️ Outros Projetos
+Projetos variados para referência:
+
+<div align="center">
+  <a href="https://github.com/Lucasdoreac/code-tracking">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=code-tracking&theme=github_dark" />
+  </a>
+  <a href="https://github.com/Lucasdoreac/fullstack-progress-tracker">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=fullstack-progress-tracker&theme=github_dark" />
+  </a>
+</div>
+
+## 📊 GitHub Stats
 <div align="center">
   <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lucasdoreac&theme=github_dark" />
 </div>
