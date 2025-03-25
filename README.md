@@ -15,8 +15,6 @@
   </a>
 </div>
 
-> ✨ **[Ver Portfólio 3D Interativo](https://lucasdoreac.github.io/portfolio-3d.html)** - Uma visualização imersiva dos meus projetos em Three.js, inspirada em mandalas hiperdimensionais. Navegue pelos meus repositórios por categoria em um ambiente 3D interativo.
-
 ### 👨‍💻 Sobre Mim
 > Estudante de Ciência da Computação & Desenvolvedor
 
