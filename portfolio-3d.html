@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio 3D de Lucas Dórea</title>
+    <style>
+        body { 
+            margin: 0; 
+            overflow: hidden; 
+            background-color: #05050a; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        canvas { 
+            display: block; 
+        }
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 320px;
+            font-size: 0.9em;
+            z-index: 10;
+        }
+        #info h1 { 
+            margin-top: 0; 
+            font-size: 1.5em; 
+            color: #61DAFB;
+        }
+        #info h2 { 
+            margin-top: 15px; 
+            font-size: 1.2em; 
+            color: #F7DF1E;
+        }
+        #info ul { 
+            padding-left: 20px; 
+        }
+        #info a {
+            color: #61DAFB;
+            text-decoration: none;
+        }
+        #info a:hover {
+            text-decoration: underline;
+        }
+        #projectInfo {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 400px;
+            font-size: 0.9em;
+            display: none;
+            z-index: 10;
+        }
+        #projectInfo h3 {
+            margin-top: 0;
+            color: #F7DF1E;
+        }
+        #projectInfo a {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #61DAFB;
+            color: #05050a;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #projectInfo a:hover {
+            background-color: #F7DF1E;
+        }
+        #categories {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 10;
+        }
+        .category-btn {
+            background-color: #1a1a2e;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .category-btn:hover {
+            background-color: #61DAFB;
+            color: #05050a;
+        }
+        .category-btn.active {
+            background-color: #F7DF1E;
+            color: #05050a;
+        }
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #05050a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 1s;
+        }
+        .loading h2 {
+            color: #61DAFB;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading" id="loading">
+        <h2>Carregando Portfólio 3D...</h2>
+    </div>
+
+    <!-- Painel de Informações -->
+    <div id="info">
+        <h1>Lucas Dórea Cardoso</h1>
+        <p>Portfólio Interativo 3D</p>
+        <h2>Sobre este portfólio</h2>
+        <p>Uma visualização 3D interativa dos meus projetos no GitHub, organizados por categorias.</p>
+        <p>Cada esfera representa um repositório. Clique para obter mais informações.</p>
+        <h2>Navegação</h2>
+        <ul>
+            <li><strong>Arraste:</strong> Orbitar a visualização</li>
+            <li><strong>Scroll:</strong> Zoom</li>
+            <li><strong>Clique nos botões:</strong> Filtrar por categoria</li>
+        </ul>
+        <p><a href="https://github.com/Lucasdoreac" target="_blank">Voltar ao GitHub</a></p>
+    </div>
+
+    <!-- Categorias -->
+    <div id="categories">
+        <button class="category-btn active" data-category="all">Todos</button>
+        <button class="category-btn" data-category="mcp">MCP/Claude</button>
+        <button class="category-btn" data-category="web">Web</button>
+        <button class="category-btn" data-category="finance">Financeiro</button>
+        <button class="category-btn" data-category="education">Educacional</button>
+        <button class="category-btn" data-category="commercial">Comercial</button>
+    </div>
+
+    <!-- Informações do Projeto -->
+    <div id="projectInfo">
+        <h3 id="projectTitle">Nome do Projeto</h3>
+        <p id="projectDesc">Descrição do projeto</p>
+        <a id="projectLink" href="#" target="_blank">Ver Repositório</a>
+    </div>
+
+    <!-- Import Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Import OrbitControls for interaction -->
+    <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <!-- Import Tween for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+
+    <script>
+        // --- Dados dos Projetos ---
+        const projectData = [
+            // MCP/Claude
+            { name: "mcp-continuity-tool", description: "Ferramenta para manter contexto e continuidade em desenvolvimento baseado em MCP", url: "https://github.com/Lucasdoreac/mcp-continuity-tool", category: "mcp", size: 1.0 },
+            { name: "php-universal-mcp-server", description: "Servidor MCP universal para desenvolvimento PHP", url: "https://github.com/Lucasdoreac/php-universal-mcp-server", category: "mcp", size: 0.9 },
+            { name: "php-hostinger-mcp-server", description: "Servidor MCP para gerenciar sites PHP em ambientes compartilhados", url: "https://github.com/Lucasdoreac/php-hostinger-mcp-server", category: "mcp", size: 0.85 },
+            { name: "mcp-continuity-server-fixed", description: "Versão corrigida do MCP Continuity Server", url: "https://github.com/Lucasdoreac/mcp-continuity-server-fixed", category: "mcp", size: 0.8 },
+            
+            // Web
+            { name: "lucasdoreac.github.io", description: "Meu site de portfólio pessoal", url: "https://github.com/Lucasdoreac/lucasdoreac.github.io", category: "web", size: 1.1 },
+            { name: "taverna-da-impressao-site", description: "Site da Taverna da Impressão - Miniaturas 3D para RPG", url: "https://github.com/Lucasdoreac/taverna-da-impressao-site", category: "web", size: 1.0 },
+            { name: "horus-tabacaria", description: "Landing page para Horús Tabacaria", url: "https://github.com/Lucasdoreac/horus-tabacaria", category: "web", size: 0.9 },
+            { name: "taverna-wp-theme", description: "Tema WordPress personalizado para Taverna da Impressão", url: "https://github.com/Lucasdoreac/taverna-wp-theme", category: "web", size: 0.85 },
+            { name: "code-tracking", description: "DevTrack Repository", url: "https://github.com/Lucasdoreac/code-tracking", category: "web", size: 0.8 },
+            
+            // Financeiro
+            { name: "MCP-Calculadoras", description: "Simulador Educacional de Investimentos com múltiplas calculadoras financeiras", url: "https://github.com/Lucasdoreac/MCP-Calculadoras", category: "finance", size: 1.1 },
+            { name: "Calculadora_Financeira_Luaraujo.com", description: "Aplicação web de calculadora financeira", url: "https://github.com/Lucasdoreac/Calculadora_Financeira_Luaraujo.com", category: "finance", size: 1.0 },
+            { name: "calculadora-luciana", description: "Calculadora web com layout responsivo", url: "https://github.com/Lucasdoreac/calculadora-luciana", category: "finance", size: 0.9 },
+            { name: "Calculadora_Financeira_Basic", description: "Versão otimizada da calculadora financeira", url: "https://github.com/Lucasdoreac/Calculadora_Financeira_Basic", category: "finance", size: 0.8 },
+            
+            // Educacional
+            { name: "fundamentos-uml", description: "Site educativo completo sobre UML", url: "https://github.com/Lucasdoreac/fundamentos-uml", category: "education", size: 1.1 },
+            { name: "programacao-orientada-objetos", description: "Site educativo sobre Programação Orientada a Objetos", url: "https://github.com/Lucasdoreac/programacao-orientada-objetos", category: "education", size: 1.0 },
+            { name: "learning-platform", description: "Plataforma moderna de autoaprendizado multidisciplinar", url: "https://github.com/Lucasdoreac/learning-platform", category: "education", size: 1.0 },
+            { name: "teste-vocacional-computacao", description: "Teste vocacional para calouros de Ciência da Computação", url: "https://github.com/Lucasdoreac/teste-vocacional-computacao", category: "education", size: 0.95 },
+            { name: "guia-financeiro-etico-computacao", description: "Guia financeiro e ético para estudantes de computação", url: "https://github.com/Lucasdoreac/guia-financeiro-etico-computacao", category: "education", size: 0.9 },
+            { name: "autoavaliacao-autossabotagem", description: "Questionário de Autoavaliação de Autossabotagem", url: "https://github.com/Lucasdoreac/autoavaliacao-autossabotagem", category: "education", size: 0.85 },
+            { name: "EstruturasDeDados", description: "Estudo de estruturas de dados em Python", url: "https://github.com/Lucasdoreac/EstruturasDeDados", category: "education", size: 0.8 },
+            
+            // Comercial
+            { name: "taverna-impressao-3d", description: "E-commerce de impressão 3D para RPG", url: "https://github.com/Lucasdoreac/taverna-impressao-3d", category: "commercial", size: 1.1 },
+            { name: "tiktok-ai-content-plan", description: "Plano para canal de TikTok com conteúdo visual gerado por IA", url: "https://github.com/Lucasdoreac/tiktok-ai-content-plan", category: "commercial", size: 0.9 },
+            { name: "udf-computacao-enhanced", description: "Versão melhorada do site UDF Computação Noturno", url: "https://github.com/Lucasdoreac/udf-computacao-enhanced", category: "commercial", size: 0.85 }
+        ];
+
+        // --- Configurações e Variáveis Globais ---
+        let scene, camera, renderer, controls;
+        let raycaster, mouse;
+        let clock = new THREE.Clock();
+        let mainGroup = new THREE.Group(); // Grupo principal que conterá tudo
+        let coreGroup = new THREE.Group(); // Núcleo com esferas de projetos
+        let middleShell, outerShell; // Cascas decorativas
+        let projectSpheres = {}; // Dicionário de esferas de projetos
+        let selectedCategory = 'all';
+        let projectInfoPanel = document.getElementById('projectInfo');
+        let projectTitle = document.getElementById('projectTitle');
+        let projectDesc = document.getElementById('projectDesc');
+        let projectLink = document.getElementById('projectLink');
+        let loadingScreen = document.getElementById('loading');
+        let selectedObject = null;
+        
+        // Cores por categoria
+        const categoryColors = {
+            mcp: 0x61DAFB,      // Azul React
+            web: 0xE34F26,       // Laranja HTML5
+            finance: 0x4CAF50,   // Verde
+            education: 0xF7DF1E, // Amarelo JavaScript
+            commercial: 0xFF4081 // Rosa
+        };
+
+        // --- Inicialização ---
+        function init() {
+            // Cena
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x05050a); // Fundo escuro
+            scene.fog = new THREE.FogExp2(0x05050a, 0.03); // Névoa sutil
+
+            // Câmera
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.z = 25;
+
+            // Renderer
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            document.body.appendChild(renderer.domElement);
+
+            // Controles de Órbita
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            controls.screenSpacePanning = false;
+            controls.minDistance = 10;
+            controls.maxDistance = 50;
+
+            // Raycaster para detecção de cliques
+            raycaster = new THREE.Raycaster();
+            mouse = new THREE.Vector2();
+
+            // Luzes
+            const ambientLight = new THREE.AmbientLight(0xaaaaee, 0.4);
+            scene.add(ambientLight);
+
+            const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444488, 0.6);
+            hemiLight.position.set(0, 50, 0);
+            scene.add(hemiLight);
+
+            const dirLight1 = new THREE.DirectionalLight(0xff88ff, 0.7);
+            dirLight1.position.set(5, 5, 5);
+            scene.add(dirLight1);
+
+            const dirLight2 = new THREE.DirectionalLight(0x88ffff, 0.5);
+            dirLight2.position.set(-5, -5, -5);
+            scene.add(dirLight2);
+
+            // Adicionar grupo principal à cena
+            scene.add(mainGroup);
+            mainGroup.add(coreGroup);
+
+            // Criar estrutura básica
+            createStructure();
+            
+            // Criar esferas de projetos
+            createProjectSpheres();
+
+            // Eventos
+            window.addEventListener('resize', onWindowResize, false);
+            document.addEventListener('mousedown', onMouseDown, false);
+            
+            // Adicionar listeners aos botões de categoria
+            document.querySelectorAll('.category-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    document.querySelectorAll('.category-btn').forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                    selectedCategory = this.dataset.category;
+                    filterProjectsByCategory(selectedCategory);
+                });
+            });
+
+            // Esconder tela de carregamento após inicialização
+            setTimeout(() => {
+                loadingScreen.style.opacity = 0;
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 1000);
+            }, 1500);
+        }
+
+        // --- Criar Estrutura Base ---
+        function createStructure() {
+            // 1. Casca Intermediária (Wireframe Octaedro)
+            const middleSize = 15;
+            const middleGeometry = new THREE.OctahedronGeometry(middleSize, 1);
+            const middleMaterial = new THREE.MeshBasicMaterial({
+                color: 0x00ffff,
+                wireframe: true,
+                transparent: true,
+                opacity: 0.5
+            });
+            middleShell = new THREE.Mesh(middleGeometry, middleMaterial);
+            mainGroup.add(middleShell);
+
+            // 2. Casca Externa (Wireframe, TorusKnot)
+            const outerRadius = 20;
+            const tubeRadius = 0.3;
+            const outerGeometry = new THREE.TorusKnotGeometry(outerRadius, tubeRadius, 150, 20, 2, 3);
+            const outerMaterial = new THREE.MeshBasicMaterial({
+                color: 0xff00ff,
+                wireframe: true,
+                transparent: true,
+                opacity: 0.4
+            });
+            outerShell = new THREE.Mesh(outerGeometry, outerMaterial);
+            mainGroup.add(outerShell);
+        }
+
+        // --- Criar Esferas de Projetos ---
+        function createProjectSpheres() {
+            const totalProjects = projectData.length;
+            const angularSpread = Math.PI * 2;
+            const radialSpread = 10; // Distribuição radial máxima
+            
+            projectData.forEach((project, index) => {
+                // Determinar cor baseada na categoria
+                const color = categoryColors[project.category] || 0xffffff;
+                
+                // Criar geometria da esfera com tamanho baseado na importância do projeto
+                const sphereSize = 0.5 * project.size;
+                const geometry = new THREE.SphereGeometry(sphereSize, 16, 16);
+                
+                // Material da esfera com brilho
+                const material = new THREE.MeshStandardMaterial({
+                    color: color,
+                    metalness: 0.7,
+                    roughness: 0.2,
+                    emissive: color,
+                    emissiveIntensity: 0.2
+                });
+                
+                // Criar a esfera
+                const sphere = new THREE.Mesh(geometry, material);
+                
+                // Posicionar em um arranjo de formato esférico/espiral
+                const theta = index * angularSpread / totalProjects;
+                const phi = index * Math.PI / (totalProjects * 0.5);
+                const radius = 2 + (index % 10) * radialSpread / 10;
+                
+                sphere.position.x = radius * Math.sin(theta) * Math.cos(phi);
+                sphere.position.y = radius * Math.sin(phi);
+                sphere.position.z = radius * Math.cos(theta) * Math.cos(phi);
+                
+                // Adicionar propriedades para raycasting e informações
+                sphere.userData = {
+                    name: project.name,
+                    description: project.description,
+                    url: project.url,
+                    category: project.category,
+                    originalPosition: sphere.position.clone(),
+                    originalScale: sphere.scale.clone()
+                };
+                
+                // Adicionar a esfera ao grupo e ao dicionário
+                coreGroup.add(sphere);
+                projectSpheres[project.name] = sphere;
+            });
+        }
+
+        // --- Filtrar Projetos por Categoria ---
+        function filterProjectsByCategory(category) {
+            // Ocultar painel de informações do projeto
+            projectInfoPanel.style.display = 'none';
+            
+            // Criar uma nova animação de posicionamento para cada esfera
+            Object.values(projectSpheres).forEach(sphere => {
+                // Definir visibilidade e escala baseado na categoria
+                const isVisible = category === 'all' || sphere.userData.category === category;
+                
+                // Criar animação Tween para posição e escala
+                const targetScale = isVisible ? sphere.userData.originalScale : new THREE.Vector3(0.1, 0.1, 0.1);
+                
+                // Posição original ou movida para o centro
+                const targetPos = isVisible
+                    ? sphere.userData.originalPosition
+                    : new THREE.Vector3(0, 0, 0);
+                
+                // Criar animação de escala
+                new TWEEN.Tween(sphere.scale)
+                    .to({ x: targetScale.x, y: targetScale.y, z: targetScale.z }, 1000)
+                    .easing(TWEEN.Easing.Quadratic.InOut)
+                    .start();
+                
+                // Criar animação de posição
+                new TWEEN.Tween(sphere.position)
+                    .to({ x: targetPos.x, y: targetPos.y, z: targetPos.z }, 1000)
+                    .easing(TWEEN.Easing.Quadratic.InOut)
+                    .start();
+                
+                // Ajustar opacidade do material
+                new TWEEN.Tween(sphere.material)
+                    .to({ opacity: isVisible ? 1.0 : 0.1 }, 1000)
+                    .easing(TWEEN.Easing.Quadratic.InOut)
+                    .start();
+            });
+        }
+
+        // --- Manipulador de Clique ---
+        function onMouseDown(event) {
+            // Calcular posição do mouse normalizada (-1 a +1)
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+            
+            // Atualizar raycaster
+            raycaster.setFromCamera(mouse, camera);
+            
+            // Checar intersecções apenas com esferas de projetos
+            const intersects = raycaster.intersectObjects(coreGroup.children);
+            
+            // Resetar escala do objeto anteriormente selecionado
+            if (selectedObject) {
+                new TWEEN.Tween(selectedObject.scale)
+                    .to({ 
+                        x: selectedObject.userData.originalScale.x, 
+                        y: selectedObject.userData.originalScale.y, 
+                        z: selectedObject.userData.originalScale.z 
+                    }, 300)
+                    .easing(TWEEN.Easing.Quadratic.Out)
+                    .start();
+                
+                selectedObject = null;
+            }
+            
+            // Ocultar painel de informações se não houver intersecção
+            if (intersects.length === 0) {
+                projectInfoPanel.style.display = 'none';
+                return;
+            }
+            
+            // Obter o primeiro objeto intersectado
+            const object = intersects[0].object;
+            selectedObject = object;
+            
+            // Animar escala do objeto selecionado
+            new TWEEN.Tween(object.scale)
+                .to({ 
+                    x: object.userData.originalScale.x * 1.3, 
+                    y: object.userData.originalScale.y * 1.3, 
+                    z: object.userData.originalScale.z * 1.3 
+                }, 300)
+                .easing(TWEEN.Easing.Quadratic.Out)
+                .start();
+            
+            // Atualizar e mostrar painel de informações
+            projectTitle.textContent = object.userData.name;
+            projectDesc.textContent = object.userData.description;
+            projectLink.href = object.userData.url;
+            projectInfoPanel.style.display = 'block';
+        }
+
+        // --- Redimensionamento de Janela ---
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        // --- Loop de Animação ---
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            const elapsedTime = clock.getElapsedTime();
+            
+            // Atualizar animações Tween
+            TWEEN.update();
+            
+            // Rotação lenta do grupo principal
+            mainGroup.rotation.y += 0.001;
+            
+            // Rotações das cascas intermediária e externa
+            if (middleShell) {
+                middleShell.rotation.x += 0.002;
+                middleShell.rotation.y -= 0.001;
+                
+                // Pulsar suavemente
+                const scale = 1.0 + Math.sin(elapsedTime * 0.5) * 0.03;
+                middleShell.scale.set(scale, scale, scale);
+            }
+            
+            if (outerShell) {
+                outerShell.rotation.x -= 0.001;
+                outerShell.rotation.z += 0.002;
+                
+                // Deformação sutil
+                outerShell.scale.x = 1.0 + Math.sin(elapsedTime * 0.3) * 0.03;
+                outerShell.scale.y = 1.0 + Math.sin(elapsedTime * 0.2 + 1) * 0.02;
+                outerShell.scale.z = 1.0 + Math.sin(elapsedTime * 0.4 + 2) * 0.04;
+            }
+            
+            // Rotações suaves das esferas de projetos
+            Object.values(projectSpheres).forEach(sphere => {
+                sphere.rotation.x += 0.01;
+                sphere.rotation.y += 0.005;
+            });
+            
+            // Atualizar controles de órbita
+            controls.update();
+            
+            // Renderizar cena
+            renderer.render(scene, camera);
+        }
+
+        // --- Iniciar ---
+        init();
+        animate();
+    </script>
+</body>
+</html>
