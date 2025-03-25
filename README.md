@@ -15,14 +15,6 @@
   </a>
 </div>
 
-## 🌌 Experimente meu Portfólio 3D Interativo
-
-<div align="center">
-  <a href="https://lucasdoreac.github.io/portfolio-3d.html">
-    <img src="https://raw.githubusercontent.com/Lucasdoreac/Lucasdoreac/threejs-portfolio/portfolio-preview.jpg" alt="Visualização 3D do Portfólio" width="600" />
-  </a>
-</div>
-
 > ✨ **[Ver Portfólio 3D Interativo](https://lucasdoreac.github.io/portfolio-3d.html)** - Uma visualização imersiva dos meus projetos em Three.js, inspirada em mandalas hiperdimensionais. Navegue pelos meus repositórios por categoria em um ambiente 3D interativo.
 
 ### 👨‍💻 Sobre Mim
