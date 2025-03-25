@@ -3,25 +3,30 @@ name: Update Tech Stack
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'README.md'  # Avoid infinite loops by ignoring README changes
   schedule:
     - cron: '0 0 * * 0'  # Run weekly on Sunday at midnight
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-tech-stack:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly grant write permission
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3  # Updated to v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3  # Updated to v3
       with:
-        node-version: '16'
+        node-version: '18'  # Updated to more recent Node.js version
 
     - name: Install dependencies
-      run: |
-        npm install @octokit/rest
-        npm install
+      run: npm ci  # Use ci instead of install for more reliable builds
 
     - name: Update Tech Stack
       run: node update_tech_stack.js
@@ -30,7 +35,7 @@ jobs:
 
     - name: Commit and push if changed
       run: |
-        git config --global user.name 'GitHub Action'
-        git config --global user.email 'action@github.com'
-        git add -A
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Tech Stack badges" && git push)
+        git config --local user.name 'github-actions[bot]'
+        git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Tech Stack badges [skip ci]" && git push)
