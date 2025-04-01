@@ -10,9 +10,6 @@
   <a href="https://lucasdoreac.github.io">
     <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
-  <a href="https://lucasdoreac.github.io/portfolio-3d.html">
-    <img src="https://img.shields.io/badge/Portfólio_3D-8A2BE2?style=for-the-badge&logo=three.js&logoColor=white" />
-  </a>
 </div>
 
 ### 👨‍💻 Sobre Mim
