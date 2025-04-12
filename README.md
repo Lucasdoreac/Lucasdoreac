@@ -7,7 +7,7 @@
   <a href="mailto:lucasdorea.c@outlook.com">
     <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" />
   </a>
-  <a href="https://lucasdoreac.github.io">
+  <a href="https://lucasdoreac.github.io/luaraujo-calculadoras/">
     <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
 </div>
