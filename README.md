@@ -61,10 +61,10 @@ Desenvolvimento web e projetos pessoais:
 Ferramentas para análise financeira e simulação de investimentos:
 
 <div align="center">
-  <a href="[https://lucasdoreac.github.io/luaraujo-calculadoras/]">
+  <a href="https://lucasdoreac.github.io/luaraujo-calculadoras/">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=MCP-Calculadoras&theme=github_dark" />
   </a>
-  <a href="[https://luaraujo.com/]">
+  <a href="https://luaraujo.com/">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lucasdoreac&repo=Calculadora_Financeira_Luaraujo.com&theme=github_dark" />
   </a>
 </div>
