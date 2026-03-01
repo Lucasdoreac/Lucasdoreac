@@ -1,47 +1,47 @@
-# ??? Lucas DÛrea Cardoso | dnp Ecosystem
+# üõ†Ô∏è Lucas D√≥rea Cardoso | dnp Ecosystem
 
-> **Desempenho N„o È Performance.** 
-> Unindo ciÍncia da computaÁ„o soberana, sistemas agÍnticos e design anticapitalista.
+> **Desempenho N√£o √© Performance.** 
+> Unindo ci√™ncia da computa√ß√£o soberana, sistemas ag√™nticos e design anticapitalista.
 
-[???? PortuguÍs](#portuguÍs) | [???? English](#english)
-
----
-
-## ???? PortuguÍs
-
-Engenheiro de SoluÁıes focado em **Soberania TecnolÛgica**. Minha pr·tica È guiada pelo materialismo dialÈtico: usar as ferramentas do capital para construir as bases de sua superaÁ„o. Desenvolvedor do ecossistema **dnp**, onde o valor tÈcnico real (**Desempenho**) precede a estÈtica das mÈtricas (**Performance**).
-
-### ?? Projetos em Destaque
-
-- **[DNP (Desempenho N„o È Performance)](https://github.com/Lucasdoreac/DNP):** Monorepo hub integrando o **LUDOC OS** (Sistema AgÍntico) e trilhas de aprendizado soberano em Roblox/TypeScript.
-- **[Free System Cleaner](https://github.com/Lucasdoreac/free-system-cleaner):** TransparÍncia e utilidade contra o modelo predatÛrio de softwares de limpeza.
-- **[Batatinha Gourmet](https://github.com/Lucasdoreac/batatinha-gourmet):** RessurreiÁ„o de hardware legado. Decrescimento aplicado ‡ eletrÙnica.
-
-### ?? Fronteiras de Pesquisa (2026)
-- **Sistemas Operacionais AgÍnticos:** Comandando infraestruturas via PowerShell/WSL atravÈs de fluxos bidirecionais de IA.
-- **Desenvolvimento Soberano no Roblox:** Criando experiÍncias que rejeitam \"Skinner Boxes\" em favor do equilÌbrio sistÍmico.
+[üáßüá∑ Portugu√™s](#portugu√™s) | [üá∫üá∏ English](#english)
 
 ---
 
-## ???? English
+## üáßüá∑ Portugu√™s
+
+Engenheiro de Solu√ß√µes focado em **Soberania Tecnol√≥gica**. Minha pr√°tica √© guiada pelo materialismo dial√©tico: usar as ferramentas do capital para construir as bases de sua supera√ß√£o. Desenvolvedor do ecossistema **dnp**, onde o valor t√©cnico real (**Desempenho**) precede a est√©tica das m√©tricas (**Performance**).
+
+### üöÄ Projetos em Destaque
+
+- **[DNP (Desempenho N√£o √© Performance)](https://github.com/Lucasdoreac/DNP):** Monorepo hub integrando o **LUDOC OS** (Sistema Ag√™ntico) e trilhas de aprendizado soberano em Roblox/TypeScript.
+- **[Free System Cleaner](https://github.com/Lucasdoreac/free-system-cleaner):** Transpar√™ncia e utilidade contra o modelo predat√≥rio de softwares de limpeza.
+- **[Batatinha Gourmet](https://github.com/Lucasdoreac/batatinha-gourmet):** Ressurrei√ß√£o de hardware legado. Decrescimento aplicado √† eletr√¥nica.
+
+### üß† Fronteiras de Pesquisa (2026)
+- **Sistemas Operacionais Ag√™nticos:** Comandando infraestruturas via PowerShell/WSL atrav√©s de fluxos bidirecionais de IA.
+- **Desenvolvimento Soberano no Roblox:** Criando experi√™ncias que rejeitam "Skinner Boxes" em favor do equil√≠brio sist√™mico.
+
+---
+
+## üá∫üá∏ English
 
 Solution Engineer focused on **Technological Sovereignty**. My practice is guided by dialectical materialism: using the tools of capital to build the foundations for its overcoming. Developer of the **dnp** ecosystem, where real technical value (**Desempenho**) precedes the aesthetics of metrics (**Performance**).
 
-### ?? Featured Projects
+### üöÄ Featured Projects
 
 - **[DNP (Desempenho is Not Performance)](https://github.com/Lucasdoreac/DNP):** Monorepo hub integrating **LUDOC OS** (Agentic System) and sovereign learning paths in Roblox/TypeScript.
 - **[Free System Cleaner](https://github.com/Lucasdoreac/free-system-cleaner):** Transparency and utility against the predatory model of cleaner software.
 - **[Batatinha Gourmet](https://github.com/Lucasdoreac/batatinha-gourmet):** Legacy hardware resurrection. Degrowth applied to electronics.
 
-### ?? Research Frontiers (2026)
+### üß† Research Frontiers (2026)
 - **Agentic Operating Systems:** Controlling infrastructures via PowerShell/WSL through bidirectional AI workflows.
-- **Sovereign Roblox Development:** Creating experiences that reject \"Skinner Boxes\" in favor of systemic balance.
+- **Sovereign Roblox Development:** Creating experiences that reject "Skinner Boxes" in favor of systemic balance.
 
 ---
 
-### ?? PrincÌpios / Principles
-1. **Desempenho > Performance:** O que funciona materialmente importa mais do que o espet·culo algorÌtmico. / Authentic execution over algorithmic spectacle.
-2. **Soberania Digital:** Deter os meios de produÁ„o do prÛprio cÛdigo e lÛgica. / Owning the means of production of code and logic.
-3. **Decrescimento:** Hardware resiliente e cÛdigo eficiente sobre o consumo desenfreado. / Resilient hardware and efficient code over mindless consumption.
+### üéØ Princ√≠pios / Principles
+1. **Desempenho > Performance:** O que funciona materialmente importa mais do que o espet√°culo algor√≠tmico. / Authentic execution over algorithmic spectacle.
+2. **Soberania Digital:** Deter os meios de produ√ß√£o do pr√≥prio c√≥digo e l√≥gica. / Owning the means of production of code and logic.
+3. **Decrescimento:** Hardware resiliente e c√≥digo eficiente sobre o consumo desenfreado. / Resilient hardware and efficient code over mindless consumption.
 
-\"CÛdigo que n„o resolve um problema real È apenas eletricidade desperdiÁada.\"
+"C√≥digo que n√£o resolve um problema real √© apenas eletricidade desperdi√ßada."
