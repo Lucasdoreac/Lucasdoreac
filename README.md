@@ -1,44 +1,47 @@
-# üéØ Lucas D√≥rea Cardoso
+# ??? Lucas DÛrea Cardoso | dnp Ecosystem
 
-> **Engenheiro de Solu√ß√µes & Automa√ß√£o.** Focado em transformar problemas t√©cnicos complexos em ferramentas funcionais de alto impacto.
+> **Desempenho N„o È Performance.** 
+> Unindo ciÍncia da computaÁ„o soberana, sistemas agÍnticos e design anticapitalista.
 
----
-
-### üöÄ Projetos em Destaque
-
-*   **[Free System Cleaner](https://github.com/Lucasdoreac/free-system-cleaner)** - Alternativa gratuita e transparente a softwares de limpeza predat√≥rios.
-*   **[MCP Universal Servers](https://github.com/Lucasdoreac/mcp-universal-servers)** - Infraestrutura para automa√ß√£o de contexto em LLMs e servidores PHP.
-*   **[Batatinha Gourmet](https://github.com/Lucasdoreac/batatinha-gourmet)** - Guia de ressurrei√ß√£o t√©cnica para hardware legado (Chromebook/Linux).
+[???? PortuguÍs](#portuguÍs) | [???? English](#english)
 
 ---
 
-### üõ†Ô∏è Stack Tecnol√≥gico
+## ???? PortuguÍs
 
-*   **Backend & Automa√ß√£o:** PHP, Python, Shell Scripting (Bash/PowerShell).
-*   **Especialidades:** MCP (Model Context Protocol), Engenharia Reversa, Otimiza√ß√£o de Sistemas Legados.
-*   **Ecossistema:** Linux (Hardened/Debian), ChromeOS Dev Mode, Hosting Environments.
+Engenheiro de SoluÁıes focado em **Soberania TecnolÛgica**. Minha pr·tica È guiada pelo materialismo dialÈtico: usar as ferramentas do capital para construir as bases de sua superaÁ„o. Desenvolvedor do ecossistema **dnp**, onde o valor tÈcnico real (**Desempenho**) precede a estÈtica das mÈtricas (**Performance**).
 
----
+### ?? Projetos em Destaque
 
-### üìà M√©tricas de Valor Real
+- **[DNP (Desempenho N„o È Performance)](https://github.com/Lucasdoreac/DNP):** Monorepo hub integrando o **LUDOC OS** (Sistema AgÍntico) e trilhas de aprendizado soberano em Roblox/TypeScript.
+- **[Free System Cleaner](https://github.com/Lucasdoreac/free-system-cleaner):** TransparÍncia e utilidade contra o modelo predatÛrio de softwares de limpeza.
+- **[Batatinha Gourmet](https://github.com/Lucasdoreac/batatinha-gourmet):** RessurreiÁ„o de hardware legado. Decrescimento aplicado ‡ eletrÙnica.
 
-| Alvo | Problema Solucionado | Impacto |
-| :--- | :--- | :--- |
-| **IObit Scam** | Cobran√ßas abusivas por limpeza trivial | **R$ 150+ economizados por user** |
-| **LLM Context** | Perda de produtividade em sess√µes | **Continuidade de fluxo garantida** |
-| **Legacy Hardware** | Obsolesc√™ncia programada | **Hardware reativado para 2026** |
+### ?? Fronteiras de Pesquisa (2026)
+- **Sistemas Operacionais AgÍnticos:** Comandando infraestruturas via PowerShell/WSL atravÈs de fluxos bidirecionais de IA.
+- **Desenvolvimento Soberano no Roblox:** Criando experiÍncias que rejeitam \"Skinner Boxes\" em favor do equilÌbrio sistÍmico.
 
 ---
 
-### üéØ Princ√≠pios
-1.  **Resultado > Teatro:** Se o c√≥digo n√£o resolve um problema real, √© desperd√≠cio.
-2.  **Anti-Scam:** Combate ativo a pr√°ticas freemium e paywalls t√©cnicos.
-3.  **Documenta√ß√£o Pura:** Manuais feitos para ensinar, n√£o para vender.
+## ???? English
+
+Solution Engineer focused on **Technological Sovereignty**. My practice is guided by dialectical materialism: using the tools of capital to build the foundations for its overcoming. Developer of the **dnp** ecosystem, where real technical value (**Desempenho**) precedes the aesthetics of metrics (**Performance**).
+
+### ?? Featured Projects
+
+- **[DNP (Desempenho is Not Performance)](https://github.com/Lucasdoreac/DNP):** Monorepo hub integrating **LUDOC OS** (Agentic System) and sovereign learning paths in Roblox/TypeScript.
+- **[Free System Cleaner](https://github.com/Lucasdoreac/free-system-cleaner):** Transparency and utility against the predatory model of cleaner software.
+- **[Batatinha Gourmet](https://github.com/Lucasdoreac/batatinha-gourmet):** Legacy hardware resurrection. Degrowth applied to electronics.
+
+### ?? Research Frontiers (2026)
+- **Agentic Operating Systems:** Controlling infrastructures via PowerShell/WSL through bidirectional AI workflows.
+- **Sovereign Roblox Development:** Creating experiences that reject \"Skinner Boxes\" in favor of systemic balance.
 
 ---
 
-[<img src="https://img.shields.io/github/followers/lucasdoreac?style=for-the-badge&label=Seguidores&color=007acc">](https://github.com/Lucasdoreac)
-[<img src="https://komarev.com/ghpvc/?username=Lucasdoreac&color=007acc&style=for-the-badge&label=Visitantes">](https://github.com/Lucasdoreac)
+### ?? PrincÌpios / Principles
+1. **Desempenho > Performance:** O que funciona materialmente importa mais do que o espet·culo algorÌtmico. / Authentic execution over algorithmic spectacle.
+2. **Soberania Digital:** Deter os meios de produÁ„o do prÛprio cÛdigo e lÛgica. / Owning the means of production of code and logic.
+3. **Decrescimento:** Hardware resiliente e cÛdigo eficiente sobre o consumo desenfreado. / Resilient hardware and efficient code over mindless consumption.
 
----
-*C√≥digo que n√£o resolve problema real √© apenas eletricidade desperdi√ßada.*
+\"CÛdigo que n„o resolve um problema real È apenas eletricidade desperdiÁada.\"
