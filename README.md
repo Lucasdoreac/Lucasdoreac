@@ -1,6 +1,4 @@
-# Lucas Dórea Cardoso
-
-**Gestor Ambiental** 
+# eLUDOC
 
 > *Desempenho não é Performance.*
 > Performance é velocidade bruta. Desempenho é chegar onde importa.
