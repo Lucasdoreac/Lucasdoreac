@@ -1,23 +1,24 @@
 # Lucas Dórea Cardoso
 
-**Gestor Ambiental** formado · Construtor de infraestrutura soberana para IA local-first
+**Gestor Ambiental** 
 
 > *Desempenho não é Performance.*
 > Performance é velocidade bruta. Desempenho é chegar onde importa.
 
 ---
 
-## O que faço
+## Metodologia de gestão ambiental ao território digital.
 
-Aplico metodologia de gestão ambiental ao território digital.
-
-Assim como a gestão ambiental mede o que a contabilidade convencional ignora — externalidades, resiliência de ecossistemas, soberania territorial — eu meço o que as métricas de tech ignoram: quem controla os dados, quem decide sobre a infraestrutura, o que sobrevive quando o servidor do fornecedor cai.
-
-Chamo isso de **ISDS — Índice de Soberania Digital Sustentável**.
+A contabilidade convencional ignora externalidades, resiliência de ecossistemas, soberania territorial — 
+Eu meço o que as métricas de tech ignoram: quem controla os dados, quem decide sobre a infraestrutura, o que sobrevive quando o servidor do fornecedor cai.
 
 ---
 
-## ISDS — O Método
+**ISDS — Índice de Soberania Digital Sustentável**.
+
+---
+
+## O Método
 
 Seis dimensões para avaliar qualquer sistema de software:
 
