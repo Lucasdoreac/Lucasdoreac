@@ -1,55 +1,74 @@
 # Lucas Dórea Cardoso (eludoc)
 
-Desempenho não é Performance.
-Performance é velocidade bruta. Desempenho é chegar onde importa com a integridade dos dados mantida sob custódia nacional.
+Auditoria é Defesa. Transparência é Soberania.
+A integridade de um sistema não se presume; ela é matematicamente provada e continuamente inspecionada.
 
-## Defesa de Infraestrutura Crítica & Soberania Digital
+## Engenheiro de Confiabilidade & Auditoria de Sistemas Estratégicos
 
-Minha atuação na Ciência da Computação é focada na proteção de ecossistemas digitais soberanos. Em um cenário onde dados são o principal ativo geopolítico, a contabilidade convencional de tecnologia — focada apenas em nuvens públicas e velocidade de entrega — ignora vulnerabilidades sistêmicas críticas.
+Minha atuação é focada na intersecção entre Ciência da Computação, Arquitetura Defensiva e Perícia Sistêmica. Em um cenário onde dados são ativos geopolíticos, a proteção da infraestrutura de tecnologia nacional (como Serpro, Dataprev e tribunais) exige mais do que apenas subir código: exige rastreabilidade irrefutável, zero-trust e auditoria forense.
 
-Sistemas do Estado e bancos de dados estratégicos não podem ser geridos com a mesma matriz de risco de uma startup. O foco da minha engenharia é construir a fundação arquitetural que impede o extrativismo de dados: Privacidade Diferencial, Agnosticismo de Provedores e Resiliência Estrutural (Air-Gapping e Edge Computing).
+Construo e audito sistemas para garantir que a transparência estatal não seja um discurso vazio, mas um recurso codificado. Minha base técnica envolve garantir o agnosticismo de provedores, a redução da superfície de ataque e a checagem automatizada de integridade nas camadas mais profundas de bancos de dados.
 
-### ⚙️ Princípios de Engenharia e Defesa (Code is Law)
+### ⚙️ Princípios de Engenharia e Risco (O Código sob Investigação)
 
-Aplico diretrizes pragmáticas para mitigar riscos estruturais e garantir o controle estatal/nacional sobre seus dados sensíveis:
+Aplico pragmatismo técnico para mitigar riscos estruturais e garantir o controle estatal/nacional:
 
-- Soberania e Agnosticismo (Zero Vendor Lock-in): Infraestruturas estratégicas (como as do SERPRO e Dataprev) não podem ser subordinadas aos interesses de provedores de nuvem estrangeiros. O desenvolvimento deve ser portável e baseado em conteinerização (Docker / K8s), garantindo migração de cargas de trabalho sem fricção ou captura de arquitetura, com foco no TCO (Total Cost of Ownership).
+- Rastreabilidade e Cadeia de Custódia: Toda operação em banco de dados sensível exige logs imutáveis. O fluxo da informação (do front-end ao servidor edge) deve ser matematicamente auditável e reversível, combatendo o risco de corrupção ou apagamento de evidências.
 
-- Criptografia e Custo Computacional Local: O processamento de dados críticos exige que a inteligência vá ao dado, e não o oposto. Minha pesquisa envolve táticas de proteção e isolamento, avaliando tecnologias avançadas como o Aprendizado Federado (Federated Learning) para garantir a integridade da custódia do Estado.
+- Soberania e Agnosticismo (Zero Vendor Lock-in): Infraestruturas estratégicas não podem ser reféns de nuvens públicas estrangeiras. Aplico Docker/K8s para garantir a migração de cargas de trabalho sem fricção, mantendo o controle total sobre o TCO (Total Cost of Ownership).
 
-- Redução da Superfície de Ataque: Automação e pipelines de dados devem focar não apenas na eficiência de extração, mas no princípio do privilégio mínimo e no tratamento determinístico da informação.
+- Verificação de Fatos Sistêmica (Truth In, Truth Out): A transparência soberana exige que a fonte de dados do Estado seja blindada contra injeções ou adulterações, usando triggers rigorosos e validação em camada de servidor, impedindo a manipulação da narrativa através da manipulação de dados.
 
-## ISDS — Índice de Soberania Digital Sistêmica
+## 🔍 ISDS — Índice de Soberania e Defesa Sistêmica
 
-Uma métrica rígida para auditar a resiliência e a vulnerabilidade de deployments tecnológicos, especialmente os que lidam com dados sensíveis de cidadãos:
+Uma métrica de auditoria contínua para avaliar a resiliência e a vulnerabilidade de deployments tecnológicos que lidam com dados do cidadão:
 
-| Dimensão | O que audita na Arquitetura | Risco Mitigado |
+| Dimensão | Pergunta de Auditoria | Risco Cibernético / Investigativo Mitigado |
 |---|---|---|
-| Territorialidade | Onde o dado reside fisicamente e qual a jurisdição do banco? | Espionagem Corporativa / Estado Estrangeiro |
-| Opacidade | O fluxo algorítmico pode ser auditado matematicamente pelo Estado? | Falta de governança em sistemas de IA externos |
-| Reversibilidade | O banco ou a nuvem permite repatriação imediata sem reescrita? | Sequestro Técnico (Vendor Lock-in) |
-| Subsidiariedade | O processamento ocorre em borda fechada (Edge) ou na nuvem aberta? | Exfiltração massiva de dados |
-| Footprint | Quantas integrações de terceiros via API (SaaS) o sistema possui? | Backdoors de suprimento de software |
-| Resiliência | O container sobrevive se a rede externa for isolada (Air-Gapped)? | Quedas globais de provedores de infraestrutura |
+| Territorialidade | Onde o dado reside fisicamente e qual a jurisdição legal do banco? | Exfiltração Internacional / Espionagem |
+| Rastreabilidade | Quem acessou, quando alterou e como provar isso via log? | Fraude Interna / Destruição de Evidências |
+| Reversibilidade | A arquitetura permite migração de nuvem sem reescrita profunda? | Sequestro Técnico (Vendor Lock-in) |
+| Subsidiariedade | O processamento crítico (ex: IA) ocorre em Edge (local) ou na nuvem? | Exposição massiva da superfície de ataque |
+| Footprint de APIs | Quantos vendors externos (SaaS) possuem acesso ao fluxo? | Backdoors de fornecedores (Supply Chain Attacks) |
+| Resiliência (Air-Gap) | O container sobrevive e mantém integridade isolado da rede externa? | Apagões globais de provedores de infraestrutura |
 
-## Projetos de Pesquisa Aplicada
+## Projetos e Ferramentas de Auditoria
 
-### DNP — Desempenho Não é Performance
+- DNP — Desempenho Não é Performance
 
-Infraestrutura focada na autonomia do sistema local (agentic-first), garantindo a persistência soberana e selada. Um experimento vivo sobre orquestração fora da nuvem central.
+  Infraestrutura focada na autonomia do sistema local (agentic-first), garantindo a persistência soberana e selada. Um ambiente laboratorial para orquestração fora da nuvem central, com auditoria de processos independente.
 
-### continuity-protocol
+- continuity-protocol
 
-Protocolo de persistência de estado (baseado no Model Context Protocol). Uma camada de defesa que garante continuidade operacional e soberania de contexto mesmo durante o apagão (downtime) de APIs de IA globais.
+  Protocolo de persistência de estado. Camada de defesa que garante continuidade operacional e soberania de contexto mesmo durante o apagão (downtime) de serviços globais, garantindo a rastreabilidade da sessão.
+
+## Roadmap de Certificações: A Trilha do Auditor Técnico
+
+Para consolidar a capacidade investigativa e defensiva em infraestruturas do Estado, meu plano de capacitação atual foca em três pilares:
+
+Pilar 1: Banco de Dados e Integridade (Fundação)
+
+- Oracle Database SQL Certified Associate (Em preparação)
+- Oracle PL/SQL Developer Certified Professional (Garantir o isolamento de lógica no servidor).
+
+Pilar 2: Arquitetura e Agnosticismo (Descentralização)
+
+- Docker Certified Associate (DCA) (Mapeamento de vulnerabilidades em containers).
+- Certified Kubernetes Administrator (CKA) (Orquestração agnóstica de provedores).
+
+Pilar 3: Auditoria Forense e Segurança Sistêmica (O Fim do Ciclo)
+
+- CompTIA Security+ (Fundamentos de defesa).
+- CISA (Certified Information Systems Auditor) - ISACA (O padrão ouro global para auditoria de sistemas de informação e controle tecnológico).
 
 ## Formação & Base Técnica
 
-- Ciência da Computação (UDF): Foco em modelagem determinística de banco de dados, arquiteturas em microsserviços e segurança da informação aplicável a grandes volumes de dados.
-- Gestão de Risco Sistêmico (Formação Anterior): A matriz analítica para rastrear falhas em cadeia, mapear dependências e auditar a resiliência de grandes sistemas.
-- Engenharia Pragmática: Prática no código para codificar barreiras defensivas, construindo integrações robustas (Oracle, SQL, Python, Conteinerização).
+- Ciência da Computação (UDF — em curso): Foco em modelagem determinística de banco de dados, arquiteturas em microsserviços e criptografia aplicada à custódia de dados.
+
+- Gestão de Risco Sistêmico (Formação Anterior): A matriz analítica para rastrear falhas em cadeia, mapear dependências e auditar a resiliência de grandes sistemas complexos.
+
+- Prática (Engenharia de Automação): Experiência comercial em converter rotinas opacas em fluxos automatizados, auditáveis e rastreáveis (Oracle, Python, Docker).
 
 ## Contato
 
-O debate sobre a proteção de infraestrutura digital não é apenas teórico, é de defesa de soberania. Para discussões técnicas, estou aberto via GitHub.
-
-> "O controle sobre o dado só é real quando a infraestrutura não pertence ao locatário."
+O debate sobre transparência de dados não é teórico, é de defesa de soberania. Para discussões sobre auditoria algorítmica e arquitetura defensiva, abra uma issue ou entre em contato.
