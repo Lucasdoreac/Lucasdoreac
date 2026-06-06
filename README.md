@@ -38,9 +38,9 @@ Uma métrica de auditoria contínua para avaliar a resiliência e a vulnerabilid
 
   Infraestrutura focada na autonomia do sistema local (agentic-first), garantindo a persistência soberana e selada. Um ambiente laboratorial para orquestração fora da nuvem central, com auditoria de processos independente.
 
-- continuity-protocol
+- Core-Forense-Secure-Ledger
 
-  Protocolo de persistência de estado. Camada de defesa que garante continuidade operacional e soberania de contexto mesmo durante o apagão (downtime) de serviços globais, garantindo a rastreabilidade da sessão.
+  Uma aplicação interativa desenvolvida em React + TypeScript para demonstração prática e homologação de mecanismos de confiabilidade, governança de dados e defesas sistêmicas contra sabotagem interna ou escalação de privilégios em bancos de dados relacionais (PostgreSQL 16+).
 
 ## Roadmap de Certificações: A Trilha do Auditor Técnico
 
