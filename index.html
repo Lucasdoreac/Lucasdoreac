@@ -1,133 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Dórea Cardoso - Sustainable Tech Developer</title>
-    <style>
-        :root {
-            --primary-color: #2e3440;
-            --secondary-color: #3b4252;
-            --accent-color: #88c0d0;
-            --text-color: #eceff4;
-        }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lucas Dórea Cardoso — Desenvolvedor em Tecnologia Sustentável</title>
+  <meta name="description" content="Portfólio de Lucas Dórea Cardoso — combina sustentabilidade com desenvolvimento web. Projetos, stack tecnológico e contato." />
+  <meta property="og:title" content="Lucas Dórea Cardoso — Portfólio" />
+  <meta property="og:description" content="Soluções de tecnologia sustentáveis e projetos de monitoramento ambiental." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/Lucasdoreac/Lucasdoreac/main/portfolio-preview.jpg" />
+  <link rel="icon" href="portfolio-preview.jpg" type="image/jpeg" />
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: var(--primary-color);
-            color: var(--text-color);
-        }
+  <style>
+    :root{
+      --bg:#0f1720;
+      --card:#111827;
+      --muted:#9aa4b2;
+      --accent:#38bdf8;
+      --text:#e6eef6;
+      --radius:10px;
+      --glass: rgba(255,255,255,0.03);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter, "Segoe UI", Roboto, system-ui, -apple-system, "Helvetica Neue", Arial;
+      background:linear-gradient(180deg,var(--bg),#071022);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
 
-        header {
-            background-color: var(--secondary-color);
-            padding: 2rem;
-            text-align: center;
-        }
+    a{color:var(--accent); text-decoration:none}
+    a:focus{outline:2px dashed var(--accent); outline-offset:3px}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+    .skip-link{
+      position:absolute;left:8px;top:8px;
+      background:#fff;color:#000;padding:6px 10px;border-radius:6px;
+      transform:translateY(-120%);transition:transform .2s;
+    }
+    .skip-link:focus{transform:none}
 
-        h1, h2 {
-            color: var(--accent-color);
-        }
+    header{
+      padding:3rem 1rem 1.5rem;
+      text-align:center;
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+      border-bottom:1px solid rgba(255,255,255,0.03);
+      backdrop-filter: blur(4px);
+    }
+    .container{max-width:1100px;margin:0 auto;padding:2rem 1rem}
 
-        .tech-stack {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
+    .hero{
+      display:flex;gap:2rem;align-items:center;flex-wrap:wrap;justify-content:center;
+    }
+    .hero-card{
+      background:linear-gradient(180deg,var(--glass), rgba(255,255,255,0.02));
+      padding:1.25rem;border-radius:var(--radius);min-width:280px;max-width:640px;
+      box-shadow: 0 6px 28px rgba(2,6,23,0.6);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    .hero h1{margin:.1rem 0;color:var(--accent);font-size:1.6rem}
+    .hero p.lead{margin:.5rem 0;color:var(--muted)}
 
-        .tech-card {
-            background-color: var(--secondary-color);
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+    .cta{
+      display:inline-flex;gap:.5rem;margin-top:1rem;flex-wrap:wrap;
+    }
+    .btn{
+      background:transparent;border:1px solid var(--accent);color:var(--accent);padding:.55rem .9rem;border-radius:8px;
+      cursor:pointer;transition:all .18s ease;
+    }
+    .btn:hover{background:var(--accent);color:#04202a;transform:translateY(-2px)}
+    .btn.secondary{border-color:rgba(255,255,255,0.06);color:var(--text)}
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
+    .profile-img{
+      width:160px;height:160px;border-radius:12px;object-fit:cover;border:1px solid rgba(255,255,255,0.04);
+    }
 
-        .social-links a {
-            color: var(--accent-color);
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border: 1px solid var(--accent-color);
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
+    main{padding:2rem 0}
+    .grid{
+      display:grid;grid-template-columns:repeat(12,1fr);gap:1rem;
+    }
+    .col-7{grid-column:span 7}
+    .col-5{grid-column:span 5}
+    @media(max-width:900px){
+      .col-7,.col-5{grid-column:span 12}
+      .hero{flex-direction:column-reverse}
+    }
 
-        .social-links a:hover {
-            background-color: var(--accent-color);
-            color: var(--primary-color);
-        }
-    </style>
+    section.card{
+      background:var(--card);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.03)
+    }
+    h2{color:var(--accent);margin:0 0 .6rem}
+    ul.tech{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;padding:0;margin:0}
+    ul.tech li{background:rgba(255,255,255,0.02);padding:.4rem .6rem;border-radius:8px;color:var(--muted);font-size:.95rem}
+
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1rem}
+    .project{
+      background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);
+      padding:.9rem;border-radius:10px;border:1px solid rgba(255,255,255,0.02);
+      display:flex;flex-direction:column;gap:.6rem;
+    }
+    .project img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+    .project .meta{display:flex;justify-content:space-between;align-items:center;font-size:.9rem;color:var(--muted)}
+
+    footer{
+      margin-top:2.5rem;padding:1.5rem 0;text-align:center;color:var(--muted);font-size:.9rem;
+      border-top:1px solid rgba(255,255,255,0.02)
+    }
+
+    .social{display:flex;justify-content:center;gap:.6rem;margin-top:.8rem}
+    .social a{padding:.5rem .7rem;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.03);color:var(--text)}
+    .social a:hover{background:rgba(255,255,255,0.02)}
+
+    /* focus styles */
+    .btn:focus,.project a:focus{outline:3px solid rgba(56,189,248,0.18);outline-offset:3px}
+
+    /* small utilities */
+    .muted{color:var(--muted)}
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Lucas Dórea Cardoso</h1>
-        <p>Sustainable Tech Developer | Environmental Manager</p>
-    </header>
+  <a class="skip-link" href="#main">Pular para conteúdo</a>
 
-    <div class="container">
-        <section>
-            <h2>About Me</h2>
-            <p>Environmental Manager turned Computer Science enthusiast, combining expertise in sustainable practices with modern web development. Creating eco-conscious technology solutions that prioritize both environmental impact and technical efficiency.</p>
-        </section>
+  <header>
+    <div class="container hero">
+      <div class="hero-card col-7" aria-labelledby="hero-title">
+        <h1 id="hero-title">Lucas Dórea Cardoso</h1>
+        <p class="lead">Desenvolvedor em Tecnologia Sustentável • Gerente Ambiental</p>
+        <p class="muted">Junto experiências em gestão ambiental com desenvolvimento web para criar soluções que priorizam eficiência de recursos e impacto ambiental reduzido.</p>
 
-        <section class="tech-stack">
-            <div class="tech-card">
-                <h2>Backend</h2>
-                <ul>
-                    <li>PHP (Core Modules)</li>
-                    <li>MySQL</li>
-                    <li>Redis</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h2>Frontend</h2>
-                <ul>
-                    <li>HTML5/CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h2>Sustainability Focus</h2>
-                <ul>
-                    <li>Green Computing</li>
-                    <li>Energy-Efficient Code</li>
-                    <li>Resource Optimization</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Current Projects</h2>
-            <ul>
-                <li>Developing sustainable web applications</li>
-                <li>Creating environmental monitoring tools</li>
-                <li>Implementing green computing practices</li>
-            </ul>
-        </section>
-
-        <div class="social-links">
-            <a href="https://github.com/Lucasdoreac">GitHub</a>
-            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">LinkedIn</a>
-            <a href="mailto:lucasdorea.c@outlook.com">Email</a>
+        <div class="cta" role="navigation" aria-label="Ações rápidas">
+          <a class="btn" href="#projects">Ver Projetos</a>
+          <a class="btn" href="#contact">Contato</a>
+          <a class="btn secondary" href="README.md" target="_blank" rel="noopener">Mais sobre mim</a>
         </div>
+      </div>
+
+      <div class="col-5" style="display:flex;align-items:center;justify-content:center">
+        <img class="profile-img" alt="Foto de Lucas" src="portfolio-preview.jpg" />
+      </div>
     </div>
+  </header>
+
+  <main id="main" class="container" tabindex="-1">
+    <div class="grid" role="region" aria-label="Conteúdo principal">
+      <div class="col-7">
+        <section class="card" aria-labelledby="about-title">
+          <h2 id="about-title">Sobre mim</h2>
+          <p>Sou Gerente Ambiental com transição para Ciência da Computação — foco em desenvolver aplicações web com consciência energética e práticas de código que reduzam o consumo de recursos quando possível. Trabalho com back-end (PHP, MySQL, Redis) e front-end (HTML5, JavaScript, React).</p>
+        </section>
+
+        <section id="projects" class="card" style="margin-top:1rem" aria-labelledby="projects-title">
+          <h2 id="projects-title">Projetos em destaque</h2>
+          <div class="projects">
+            <article class="project">
+              <img src="portfolio-preview.jpg" alt="Preview projeto 1" />
+              <h3>Projeto Modelo 1</h3>
+              <p class="muted">Ferramenta de monitoramento ambiental com dashboard leve e integração de sensores.</p>
+              <div class="meta">
+                <a href="https://github.com/Lucasdoreac" target="_blank" rel="noopener">Ver no GitHub</a>
+                <span class="muted">Tech: PHP • MySQL</span>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="portfolio-preview.jpg" alt="Preview projeto 2" />
+              <h3>Projeto Frontend</h3>
+              <p class="muted">SPA otimizada para baixo consumo de recursos e renderização eficiente.</p>
+              <div class="meta">
+                <a href="#" aria-label="Abrir projeto">Demo</a>
+                <span class="muted">Tech: React • JS</span>
+              </div>
+            </article>
+
+            <!-- Adicione aqui mais projects com links reais -->
+          </div>
+        </section>
+      </div>
+
+      <aside class="col-5">
+        <section class="card" aria-labelledby="stack-title">
+          <h2 id="stack-title">Stack & Skills</h2>
+          <ul class="tech" aria-label="Tecnologias">
+            <li>PHP (módulos core)</li>
+            <li>MySQL</li>
+            <li>Redis</li>
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Green Computing</li>
+          </ul>
+        </section>
+
+        <section id="contact" class="card" style="margin-top:1rem" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contato</h2>
+          <p class="muted">Tem um projeto sustentável? Vamos conversar.</p>
+          <p><strong>Email:</strong> <a href="mailto:lucasdorea.c@outlook.com">lucasdorea.c@outlook.com</a></p>
+
+          <form action="mailto:lucasdorea.c@outlook.com" method="post" enctype="text/plain" aria-label="Formulário de contato simples">
+            <label for="name" class="muted">Nome</label><br />
+            <input id="name" name="name" type="text" style="width:100%;padding:.5rem;margin:.35rem 0;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)" />
+            <label for="message" class="muted">Mensagem</label><br />
+            <textarea id="message" name="message" rows="4" style="width:100%;padding:.5rem;margin:.35rem 0;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)"></textarea>
+            <div style="display:flex;gap:.5rem">
+              <button type="submit" class="btn">Enviar</button>
+              <button type="reset" class="btn secondary">Limpar</button>
+            </div>
+          </form>
+
+          <div class="social" aria-label="Redes sociais">
+            <a href="https://github.com/Lucasdoreac" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:lucasdorea.c@outlook.com">Email</a>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      <div>© <span id="year"></span> Lucas Dórea Cardoso — Desenvolvedor & Gerente Ambiental</div>
+      <div class="muted">Feito com foco em eficiência e boas práticas.</div>
+    </footer>
+  </main>
+
+  <script>
+    // Atualiza ano no rodapé
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scroll para links internos
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const target = document.querySelector(a.getAttribute('href'));
+        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth',block:'start'}); }
+      });
+    });
+  </script>
 </body>
 </html>
