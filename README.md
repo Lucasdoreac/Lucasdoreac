@@ -1,85 +1,55 @@
-# eludoc
+# Lucas Dórea Cardoso (eludoc)
 
-> *Desempenho não é Performance.*
-> Performance é velocidade bruta. Desempenho é chegar onde importa.
+Desempenho não é Performance.
+Performance é velocidade bruta. Desempenho é chegar onde importa com a integridade dos dados mantida sob custódia nacional.
 
----
+## Defesa de Infraestrutura Crítica & Soberania Digital
 
-## Metodologia de gestão ambiental ao território digital.
+Minha atuação na Ciência da Computação é focada na proteção de ecossistemas digitais soberanos. Em um cenário onde dados são o principal ativo geopolítico, a contabilidade convencional de tecnologia — focada apenas em nuvens públicas e velocidade de entrega — ignora vulnerabilidades sistêmicas críticas.
 
-A contabilidade convencional ignora externalidades, resiliência de ecossistemas, soberania territorial — 
-Eu meço o que as métricas de tech ignoram: quem controla os dados, quem decide sobre a infraestrutura, o que sobrevive quando o servidor do fornecedor cai.
+Sistemas do Estado e bancos de dados estratégicos não podem ser geridos com a mesma matriz de risco de uma startup. O foco da minha engenharia é construir a fundação arquitetural que impede o extrativismo de dados: Privacidade Diferencial, Agnosticismo de Provedores e Resiliência Estrutural (Air-Gapping e Edge Computing).
 
----
+### ⚙️ Princípios de Engenharia e Defesa (Code is Law)
 
-**ISDS — Índice de Soberania Digital Sustentável**.
+Aplico diretrizes pragmáticas para mitigar riscos estruturais e garantir o controle estatal/nacional sobre seus dados sensíveis:
 
----
+- Soberania e Agnosticismo (Zero Vendor Lock-in): Infraestruturas estratégicas (como as do SERPRO e Dataprev) não podem ser subordinadas aos interesses de provedores de nuvem estrangeiros. O desenvolvimento deve ser portável e baseado em conteinerização (Docker / K8s), garantindo migração de cargas de trabalho sem fricção ou captura de arquitetura, com foco no TCO (Total Cost of Ownership).
 
-## O Método
+- Criptografia e Custo Computacional Local: O processamento de dados críticos exige que a inteligência vá ao dado, e não o oposto. Minha pesquisa envolve táticas de proteção e isolamento, avaliando tecnologias avançadas como o Aprendizado Federado (Federated Learning) para garantir a integridade da custódia do Estado.
 
-Seis dimensões para avaliar qualquer sistema de software:
+- Redução da Superfície de Ataque: Automação e pipelines de dados devem focar não apenas na eficiência de extração, mas no princípio do privilégio mínimo e no tratamento determinístico da informação.
 
-| Dimensão | O que mede | Analogia ambiental |
-|----------|-----------|-------------------|
-| **Territorialidade** | Onde o dado nasce e morre | Soberania territorial |
-| **Rastreabilidade** | Você consegue auditar o fluxo? | Cadeia de custódia ISO 14001 |
-| **Reversibilidade** | Você consegue sair sem perder tudo? | Princípio da precaução |
-| **Subsidiariedade** | Governança tão local quanto possível | Gestão descentralizada |
-| **Footprint** | Quantas entidades externas o sistema exige? | Pegada ecológica |
-| **Resiliência** | Funciona sob isolamento? | Resiliência de ecossistemas |
+## ISDS — Índice de Soberania Digital Sistêmica
 
-A lógica do capital maximiza performance (velocidade, usuários, receita) e externaliza o custo.
-O ISDS mede o custo que o capital torna invisível.
+Uma métrica rígida para auditar a resiliência e a vulnerabilidade de deployments tecnológicos, especialmente os que lidam com dados sensíveis de cidadãos:
 
----
+| Dimensão | O que audita na Arquitetura | Risco Mitigado |
+|---|---|---|
+| Territorialidade | Onde o dado reside fisicamente e qual a jurisdição do banco? | Espionagem Corporativa / Estado Estrangeiro |
+| Opacidade | O fluxo algorítmico pode ser auditado matematicamente pelo Estado? | Falta de governança em sistemas de IA externos |
+| Reversibilidade | O banco ou a nuvem permite repatriação imediata sem reescrita? | Sequestro Técnico (Vendor Lock-in) |
+| Subsidiariedade | O processamento ocorre em borda fechada (Edge) ou na nuvem aberta? | Exfiltração massiva de dados |
+| Footprint | Quantas integrações de terceiros via API (SaaS) o sistema possui? | Backdoors de suprimento de software |
+| Resiliência | O container sobrevive se a rede externa for isolada (Air-Gapped)? | Quedas globais de provedores de infraestrutura |
 
-## Projetos principais
+## Projetos de Pesquisa Aplicada
 
-### [DNP — Desempenho Não é Performance](https://github.com/Lucasdoreac/DNP)
-Monorepo do LUDOC OS: infraestrutura agentic-first com identidade selada por hardware, persistência SQLite local e protocolo de gossip P2P. Claude + Gemini operando como enxame soberano sem cloud.
+### DNP — Desempenho Não é Performance
 
-**ISDS:** Territorialidade 0.92 · Subsidiariedade 0.95 · Footprint 0.90
+Infraestrutura focada na autonomia do sistema local (agentic-first), garantindo a persistência soberana e selada. Um experimento vivo sobre orquestração fora da nuvem central.
 
-### [agente-carbono-llm](https://github.com/Lucasdoreac/agente-carbono-llm)
-Agente LLM para contabilidade de carbono. A interseção direta entre formação ambiental e infraestrutura de IA. Projeto mais original do portfólio — em desenvolvimento.
+### continuity-protocol
 
-### [EcoGov](https://github.com/Lucasdoreac/EcoGov)
-Central de monitoramento para prestação de contas ambientais. Governança descentralizada aplicada ao território digital.
+Protocolo de persistência de estado (baseado no Model Context Protocol). Uma camada de defesa que garante continuidade operacional e soberania de contexto mesmo durante o apagão (downtime) de APIs de IA globais.
 
-### [continuity-protocol](https://github.com/Lucasdoreac/continuity-protocol)
-Protocolo de continuidade de projetos. Persistência soberana de contexto entre sessões de IA — implementação ciborgue do MCP.
+## Formação & Base Técnica
 
----
-
-## Guardrail — o que oriente cada novo projeto
-
-Antes de qualquer commit novo:
-
-```
-ISDS score > 0.60 → projeto soberano, avançar
-ISDS score 0.30–0.60 → projeto de transição, aceitar com consciência
-ISDS score < 0.30 → trabalho para o capital, nomear assim
-```
-
-Nomear o trabalho pelo que ele é — sem culpa, sem ilusão — é o primeiro ato de soberania.
-
----
-
-## Formação
-
-- **Gestão Ambiental** — formação base que informa toda a metodologia
-- **Computação** — UDF (em curso, noturno)
-- **Prática**: 161 repositórios, a maioria experimentos, alguns projetos reais, um método emergente
-
----
+- Ciência da Computação (UDF): Foco em modelagem determinística de banco de dados, arquiteturas em microsserviços e segurança da informação aplicável a grandes volumes de dados.
+- Gestão de Risco Sistêmico (Formação Anterior): A matriz analítica para rastrear falhas em cadeia, mapear dependências e auditar a resiliência de grandes sistemas.
+- Engenharia Pragmática: Prática no código para codificar barreiras defensivas, construindo integrações robustas (Oracle, SQL, Python, Conteinerização).
 
 ## Contato
 
-O código é a documentação.
-Se quiser conversar sobre ISDS, soberania digital ou agente de carbono: abra uma issue no DNP.
+O debate sobre a proteção de infraestrutura digital não é apenas teórico, é de defesa de soberania. Para discussões técnicas, estou aberto via GitHub.
 
----
-
-*"O hardware é livre quando a identidade é selada."*
-*— LUDOC OS Protocol*
+> "O controle sobre o dado só é real quando a infraestrutura não pertence ao locatário."
