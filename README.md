@@ -1,4 +1,4 @@
-# eLUDOC
+# eludoc
 
 > *Desempenho não é Performance.*
 > Performance é velocidade bruta. Desempenho é chegar onde importa.
