@@ -1,4 +1,4 @@
-# Lucas Dórea Cardoso (eludoc)
+# Lucas D. Cardoso (eludoc)
 
 **Proletário da Tecnologia · Entrando no Mundo de AI por Necessidade e Curiosidade**
 
