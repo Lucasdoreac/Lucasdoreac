@@ -2,7 +2,7 @@
 
 **Proletário da Tecnologia · Entrando no Mundo de AI por Necessidade e Curiosidade**
 
-> "Sou um trabalhador que está trocando a ferramenta do láude pelo código, não por escolha, mas pela força da transformação que estamos vivendo. Não sou engenheiro formado, não tem 10 anos de experiência, não sei nem quanto deveria cobrar pelo que estou criando. Estou aprendendo na marra."
+> "Sou um trabalhador que está trocando processos manuais por automação, não por escolha, mas pela força da transformação digital que estamos vivendo. Não sou engenheiro formado, não tenho 10 anos de experiência, não sei nem quanto deveria cobrar pelo que estou criando. Estou aprendendo na marra."
 
 ---
 
