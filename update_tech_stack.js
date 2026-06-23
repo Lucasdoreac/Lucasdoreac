@@ -9,7 +9,7 @@ const octokit = new Octokit({
 
 // Badge template function
 const createBadge = (name, color, logo) => {
-  return `![${name}](https://img.shields.io/badge/-${name}-${color}?style=flat&logo=${logo.toLowerCase()}&logoColor=white)`;
+  return `<img alt="${name}" src="https://img.shields.io/badge/${name}-${color}?style=for-the-badge&logo=${logo.toLowerCase()}&logoColor=white"/>`;
 };
 
 // Language color mapping
@@ -27,6 +27,18 @@ const languageColors = {
   Swift: 'FA7343',
   Kotlin: '7F52FF',
   Rust: '000000',
+  'Three.js': '000000',
+};
+
+// Framework and tools mapping
+const frameworksAndTools = {
+  'React': '61DAFB',
+  'Node.js': '339933',
+  'Express': '000000',
+  'MongoDB': '47A248',
+  'Git': 'F05032',
+  'Docker': '2496ED',
+  'Three.js': '000000',
 };
 
 async function getTopLanguages(username) {
@@ -43,14 +55,18 @@ async function getTopLanguages(username) {
     
     for (const repo of repos) {
       if (!repo.fork) { // Skip forked repositories
-        const { data: languages } = await octokit.repos.listLanguages({
-          owner: username,
-          repo: repo.name,
-        });
+        try {
+          const { data: languages } = await octokit.repos.listLanguages({
+            owner: username,
+            repo: repo.name,
+          });
 
-        // Sum up bytes for each language
-        for (const [lang, bytes] of Object.entries(languages)) {
-          languageStats[lang] = (languageStats[lang] || 0) + bytes;
+          // Sum up bytes for each language
+          for (const [lang, bytes] of Object.entries(languages)) {
+            languageStats[lang] = (languageStats[lang] || 0) + bytes;
+          }
+        } catch (error) {
+          console.log(`Skipping repo ${repo.name}: ${error.message}`);
         }
       }
     }
@@ -77,24 +93,42 @@ async function updateReadme(username) {
     // Get top languages
     const topLanguages = await getTopLanguages(username);
     
+    // Add frameworks and tools based on repo analysis
+    const technologies = [
+      ...topLanguages.map(lang => ({
+        name: lang.name,
+        color: languageColors[lang.name] || '555555',
+        logo: lang.name
+      })),
+      // Add common frameworks and tools
+      { name: 'React', color: frameworksAndTools['React'], logo: 'react' },
+      { name: 'Git', color: frameworksAndTools['Git'], logo: 'git' },
+      { name: 'Three.js', color: frameworksAndTools['Three.js'], logo: 'three.js' }
+    ];
+    
     // Create badges
-    const badges = topLanguages.map(lang => 
-      createBadge(
-        lang.name,
-        languageColors[lang.name] || '555555',
-        lang.name
-      )
-    ).join('\n');
+    const badges = technologies
+      .filter((tech, index, self) => 
+        index === self.findIndex((t) => t.name === tech.name)
+      ) // Remove duplicates
+      .map(tech => createBadge(tech.name, tech.color, tech.logo))
+      .join('\n  ');
 
     // Read current README
     const readmePath = path.join(__dirname, 'README.md');
     let readme = fs.readFileSync(readmePath, 'utf8');
 
-    // Update Tech Stack section
-    const techStackRegex = /(### Linguagens & Frameworks\n)([\s\S]*?)(###|$)/;
+    // Update Tech Stack section - look for the correct pattern
+    const techStackRegex = /(### 🛠️ Stack Tecnológico\n<div style="display: inline_block">)([\s\S]*?)(<\/div>)/;
+    
+    if (!techStackRegex.test(readme)) {
+      console.log('Could not find Tech Stack section in README. Please ensure the section exists with the correct heading.');
+      return;
+    }
+
     const updatedReadme = readme.replace(
       techStackRegex,
-      `### Linguagens & Frameworks\n${badges}\n\n###`
+      `### 🛠️ Stack Tecnológico\n<div style="display: inline_block">\n  ${badges}\n</div>`
     );
 
     // Write updated README
