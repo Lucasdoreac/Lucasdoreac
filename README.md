@@ -53,7 +53,7 @@ Mapa de compasso político interativo feito **para quem não tem letramento pol�
 `TypeScript` `Gemini` `Acessibilidade`
 
 **[Guia de Cultivo Legal de Cannabis](https://github.com/Lucasdoreac/guia-cultivo-cannabis)** — [🌐 acessar](https://lucasdoreac.github.io/guia-cultivo-cannabis/) · *out/2025*
-Informação técnica sobre cultivo legal em português. A guerra às drogas nunca foi sobre a planta — é sobre quem é preso por ela.
+Informação técnica sobre cultivo legal em português — com a origem racista da proibição documentada a partir da pesquisa de **Luísa Saad**, que mostrou como a lei de 1932 nasceu do pânico moral do pós-abolição, não de argumento científico. A guerra às drogas nunca foi sobre a planta.
 `No ar`
 
 ### 🪞 Alienação e consciência
