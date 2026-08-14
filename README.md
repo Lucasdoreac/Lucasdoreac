@@ -1,168 +1,110 @@
-# Lucas D. Cardoso (eludoc)
+# Lucas Dórea Cardoso · `eludoc`
 
-**Proletário da Tecnologia · Entrando no Mundo de AI por Necessidade e Curiosidade**
+**Proletário da tecnologia.** Escrevo código para tornar visível o que a sociedade aprendeu a não enxergar.
 
-> "Sou um trabalhador que está trocando processos manuais por automação, não por escolha, mas pela força da transformação digital que estamos vivendo. Não sou engenheiro formado, não tenho 10 anos de experiência, não sei nem quanto deveria cobrar pelo que estou criando. Estou aprendendo na marra."
+> Não entrei na computação por vocação nem por privilégio. Entrei porque a onda de automação estava chegando e eu preferi aprender a nadar. O que descobri no caminho é que a mesma ferramenta que me tira o emprego pode ser usada para explicar, a quem nunca teve acesso, por que ele está sendo tirado.
 
----
-
-## 🎯 Quem Sou Eu (De Verdade)
-
-Sou um **trabalhador proletário** entrando no mundo de Inteligência Artificial não por privilégio, mas por necessidade. Vejo a onda de automação chegando e decidi: é melhor aprender a surfar do que deixar me levar.
-
-- **Em formação**: Ciência da Computação (UDF) - ainda não terminei, estou aprendendo enquanto faço
-- **Background**: Gestão de Risco Sistêmico - a matriz analítica para entender falhas em cadeia
-- **Realidade**: Não tenho CNPJ estruturado, não sei precificar direito, não tenho rede de contatos "influentes"
+**Portfólio:** [lucasdoreac.github.io](https://lucasdoreac.github.io) · **Formação:** Ciência da Computação (UDF), em curso
 
 ---
 
-## 🤖 O Que Estou Construindo (e Por Que)
+## O fio que costura tudo
 
-### LUDOC — Orquestrador Soberano de Agentes AI
+Meus projetos partem de uma pergunta só: **o que faz uma pessoa não conseguir enxergar a estrutura que a organiza?**
 
-**O que é:** Um sistema de IA que funciona **local**, sem depender de nuvens estrangeiras, usando protocolsos industriais (MCP, ACP, ADK).
+Marx chamou isso de alienação. Du Bois chamou de dupla consciência. Fanon mostrou como o colonialismo entra na cabeça antes de entrar no território. Lélia Gonzalez mostrou que, no Brasil, racismo e sexismo não são camadas separadas — são a mesma engrenagem.
 
-**O que faz:**
-- ✅ Executa 20+ ferramentas de forma autônoma (ler arquivos, executar comandos, pesquisa na web, gerar documentos)
-- ✅ Opera com validação de segurança (não deixa o agente destruir o sistema sem aprovação humana)
-- ✅ Roda em Kubernetes (podendo ser instalado em qualquer servidor, inclusive do governo)
-- ✅ Usa modelos de IA que rodam em 8GB de RAM (acessível para qualquer máquina comum)
-
-**O por que (soberania):**
-Acredito que órgãos públicos (Serpro, Dataprev, tribunais) não deveriam depender de IA de empresas americanas. Construí LUDOC como prova de que **dá para fazer IA sovereign** com tecnologia open source.
+Eu construo ferramentas. Sites, questionários, análises, mapas interativos. Cada uma tenta transformar uma abstração teórica em algo que uma pessoa sem repertório acadêmico consiga usar sozinha, no celular, sem pedir licença.
 
 ---
 
-## 💰 A Contradição em Que Vivo (e Preciso Resolver)
+## Projetos em destaque
 
-### Open Source vs. Precisar Cobrar
+### 🩸 Raça, religião e pânico moral
 
-**O problema:** Eu passo o dia escrevendo código que libero no GitHub como open source, sem licença, sem nada. Ao mesmo tempo, preciso disso para pagar as contas.
+**[Racismo Religioso e Pânico Satânico](https://github.com/Lucasdoreac/magia-negra-analysis)** — [🌐 acessar](https://lucasdoreac.github.io/magia-negra-analysis/)
+Análise da demonização de práticas espirituais de matriz africana no Brasil, do Caso Evandro ao pânico satânico global. Cobre percepção pública, mecanismos de controle e resistência, perspectivas acadêmicas e depoimentos da comunidade.
+`HTML` `Pesquisa` `No ar`
 
-**O que não sei:**
-- Nem sei se posso cobrar por código que liberei assim
-- Nem se preciso de licença para proteger meus direitos
-- Nem como transformar isso em serviço que alguém pague
-- Nem se estou competindo com trabalhadores que serão substituídos por IA
+**[Reddit Language Analysis](https://github.com/Lucasdoreac/reddit-language-analysis)**
+Pesquisa em PLN sobre termos codificados e padrões de linguagem usados para disfarçar discurso de ódio em comunidades online. Coleta automatizada, análise estatística e visualização.
+`Python` `NLP` `Jupyter`
 
-**O que estou aprendendo:**
-- Modelo de negócio para software open source
-- Como não se queimar com trabalhadores manuais que podem ser substituídos
-- Como oferecer valor para empresas sem prometer mágica
-- Diferença entre "liberar código" e "comercializar serviço"
+### 🔧 Classe, trabalho e acesso
 
----
+**[Guia Financeiro e Ético para Carreiras em Computação](https://github.com/Lucasdoreac/guia-financeiro-etico-computacao)** — [🌐 acessar](https://lucasdoreac.github.io/guia-financeiro-etico-computacao/)
+Escrito para o estudante que é o primeiro da família a chegar na universidade e não tem quem explique salário, freelance ou o custo ético do que ele vai construir. Perspectivas financeiras reais + reflexão sobre responsabilidade profissional.
+`No ar`
 
-## 🛡️ Minha Posição Sobre Trabalhadores e Substituição
+**[Teste Vocacional para Computação](https://github.com/Lucasdoreac/teste-vocacional-computacao)** — [🌐 acessar](https://lucasdoreac.github.io/teste-vocacional-computacao/)
+Orientação de carreira gratuita para calouros que não têm acesso a consultoria paga.
+`JavaScript` `No ar`
 
-Não quero ser parte do problema. Se a IA que eu construir ajudar a demitir alguém, eu preciso:
+**[EcoGov](https://github.com/Lucasdoreac/EcoGov)**
+Central de monitoramento para prestação de contas pública. Dinheiro do povo devia ser auditável pelo povo.
+`Em construção`
 
-1. **Ser transparente:** Minhas ferramentas são para **aumentar produtividade**, não para "cortar gastos demitindo pessoas"
-2. **Respeitar o trabalhador:** A IA deve fazer o **trabalho repetitivo**, não substituir a **experiência humana**
-3. **Defender empregos:** Se o meu sistema for usado para demitir, eu vou denunciar o uso indevido
+### 🧭 Letramento político e ideologia
 
-**Política clara:** Não trabalho para projetos que tenham como objetivo **puramente reduzir quadro**. Trabalho para **modernizar processos mantendo dignidade**.
+**[Bússola Comunitária](https://github.com/Lucasdoreac/guerra-cultural)**
+Mapa de compasso político interativo feito **para quem não tem letramento político**. Atravessa as pautas históricas e as guerras culturais modernas com apoio de IA, áudio e recursos de acessibilidade. Política sem complicação, para todos.
+`TypeScript` `Gemini` `Acessibilidade`
 
----
+**[Guia de Cultivo Legal de Cannabis](https://github.com/Lucasdoreac/guia-cultivo-cannabis)** — [🌐 acessar](https://lucasdoreac.github.io/guia-cultivo-cannabis/)
+Informação técnica sobre cultivo legal em português. A guerra às drogas nunca foi sobre a planta — é sobre quem é preso por ela.
+`No ar`
 
-## 💼 O Que Posso Oferecer (Hoje, Sem Fantasia)
+### 🪞 Alienação e consciência
 
-### Para Pequenas Empresas
-- **Automação de tarefas repetitivas** (relatórios, planilhas, processos manuais)
-- **Sistemas que rodam local** (não dependem de assinatura mensal de SaaS americano)
-- **Auditoria de processos** (onde o sistema está falhando, onde dá para automatizar)
+**[DNP — Desempenho Não é Performance](https://github.com/Lucasdoreac/DNP)**
+Performance é velocidade bruta e métrica de visibilidade. Desempenho é chegar onde importa. Um protocolo e ecossistema construído sobre essa distinção — crítica prática à economia da atenção, com auditoria independente e infraestrutura fora da nuvem central.
+`TypeScript` `Monorepo`
 
-### Para Governo/Órgãos Públicos
-- **Prova de conceito de IA sovereign** (mostrar que dá para fazer sem depender de USA)
-- **Sistemas de r金融服务** (onde o dinheiro público está sendo gasto, onde tem corrupção)
-- **Treinamento de equipe** (como usar IA local de forma segura)
+**[Autoavaliação de Autossabotagem](https://github.com/Lucasdoreac/autoavaliacao-autossabotagem)** — [🌐 acessar](https://lucasdoreac.github.io/autoavaliacao-autossabotagem/)
+50 perguntas, 9 áreas, base em evidências científicas. Resultados em gráfico, recomendações, exportação em PDF. **100% local — nenhum dado sai do seu navegador.**
+`JavaScript` `Privacidade por design` `No ar`
 
-**O que NÃO prometo:**
-- ❌ "Vou cortar seu quadro em 50%" (isso é desumano)
-- ❌ "IA vai resolver todos os problemas" (isso é mentira)
-- ❌ "Tenho 10 anos de experiência em IA" (estou começando)
+**[O-Terminal](https://github.com/Lucasdoreac/o-terminal)**
+ARG no universo SCP sobre uma máquina que prevê você com 94,7% de precisão e conhece o que você nunca contou. Ficção sobre vigilância preditiva — e sobre o que é mais assustador que a vigilância: ela se importar.
+`Narrativa` `Remotion`
 
-**O que PROMETO:**
-- ✅ "Vou entregar algo que funciona e você entende como usa"
-- ✅ "Vou te ensinar como manter o sistema sem depender de mim"
-- ✅ "Vou ser honesto sobre o que dá e o que não dá pra fazer com IA"
+### ⚙️ Infraestrutura soberana
 
----
+**LUDOC — Orquestrador Soberano de Agentes**
+Sistema de IA que roda local, sem depender de nuvem estrangeira, com protocolos abertos (MCP, ACP, ADK). 20+ ferramentas autônomas, validação de segurança com aprovação humana, deploy em Kubernetes, modelos que rodam em 8GB de RAM.
+Órgãos públicos brasileiros não deveriam depender de IA de empresas americanas. Isto é a prova de que dá para não depender.
 
-## 🎓 Formação & Certificações (Em Progresso)
-
-### Base Técnica
-- **Ciência da Computação (UDF)** - Em curso, aprendendo enquanto faço
-- **Gestão de Risco Sistêmico** - Formação anterior, uso para analisar falhas em sistemas complexos
-- **Prática comercial** - Experiência convertendo processos manuais em automatizados
-
-### Roadmap de Certificações (Aprendendo conforme vou precisando)
-- **Pilar 1 (Dados)**: Oracle Database SQL (em preparação) - entender banco de dados
-- **Pilar 2 (Arquitetura)**: Docker + Kubernetes - orquestrar sistemas sem depender de nuvem
-- **Pilar 3 (Segurança)**: CompTIA Security+, CISA - aprender a auditar sistemas
+**[Core-Forense-Secure-Ledger](https://github.com/Lucasdoreac/Core-Forense-Secure-Ledger-)**
+Governança de dados e defesa contra sabotagem interna em bancos relacionais.
+`TypeScript` `PostgreSQL`
 
 ---
 
-## 🔬 Projetos & Experimentos (Tudo Open Source, Tudo Aprendendo)
+## Em construção (assumindo publicamente)
 
-### LUDOC — Orquestrador Soberano de Agentes (2026)
-**Conquista recente:** Consegui fazer um sistema de IA com 20 ferramentas, validação de segurança, deploy em Kubernetes, tudo funcionando sem depender de nuvem americana.
+Dois projetos que são o centro do que quero fazer e ainda estão vazios. Registro aqui para me cobrar:
 
-- ✅ 20 skills operacionais (execução shell, gerenciamento de arquivos, pesquisa web, etc.)
-- ✅ Multi-protocolo (MCP-SSE transport, ACP endpoints implementados)
-- ✅ Validação automática de código Python (AST + Ruff)
-- ✅ Deploy testado em Kind cluster
-- ✅ Documentação completa e profissional
-
-**O que isso significa:** É a prova que um proletário sem formação em IA consegue entregar algo de nível profissional usando apenas ferramentas open source e muita força de vontade.
-
-### Core-Forense-Secure-Ledger
-Aplicação interativa para demonstrar **governança de dados** e **defesa contra sabotagem interna** em bancos relacionais (PostgreSQL).
-
-### DNP — Desempenho Não é Performance
-Ambiente laboratorial para orquestração **fora da nuvem central**, com **auditoria independente**.
+- **Alfabetização Emocional em Lares Tradicionais** — como a estrutura familiar patriarcal produz analfabetismo afetivo, e o que fazer com isso
+- **Questionário de Mapeamento de Perspectiva** — não é teste, não tem resposta errada: mapeia com empatia como cada pessoa processa a sobrecarga informacional do mundo atual
 
 ---
 
-## 💬 O Que Estou Buscando (Sinceramente)
+## Princípios de trabalho
 
-### Oportunidades
-- **Empresas que querem automatizar processos** mas não sabem por onde começar
-- **Órgãos públicos que precisam provar que podem usar IA sem depender de USA**
-- **Projetos onde a **dignidade do trabalhador** é importante**
-- **Pessoas que queiram investir em alguém que vai entregar valor honesto**
+Minhas ferramentas existem para **aumentar autonomia**, não para cortar quadro.
 
-### O Que Não Faço
-- ❌ Trabalho para empresas que querem "cortar gastos demitindo"
-- ❌ Projetos militares/políticos (não é minha área, não é meu princípio)
-- ❌ Sistemas de vigilância/opressão (meu código é para libertar, não prender)
+- ✅ Automatizo o **trabalho repetitivo**, não a **experiência humana**
+- ✅ Entrego algo que funciona e que você entende como manter sem mim
+- ✅ Sou honesto sobre o que a IA faz e o que ela não faz
+- ❌ Não trabalho em projeto cujo objetivo seja **puramente reduzir quadro**
+- ❌ Não construo sistema de vigilância ou opressão — meu código é para libertar
 
 ---
 
-## 📈 Próximos Passos (Aprendendo em Público)
+## Contato
 
-1. **Entender modelo de negócio** - Como transformar open source em renda honesta
-2. **Estruturar CNPJ** - Dar formalidade ao que já estou fazendo na prática
-3. **Definir licenças apropriadas** - Proteger direitos sem deixar de ser open source
-4. **Aprender a precificar** - Cobrar de forma justa, nem de graça, nem abusando
-5. **Construir portfolio** - Ter casos de uso reais para mostrar
+Aberto a conversa com quem é **trabalhador** e quer entender o que a IA está fazendo com o seu ofício; quem **empreende** e quer modernizar sem demitir; quem está no **serviço público** e precisa de soberania tecnológica; e quem tem **experiência** e quer me dar conselho honesto.
 
----
+Abra uma [issue](https://github.com/Lucasdoreac/Lucasdoreac/issues) ou me chame no LinkedIn.
 
-## 🤝 Contato & Networking
-
-**Sou novo nesse mundo, estou aprendendo em público.**
-
-Se você:
-- É **trabalhador** preocupado com IA e quer entender melhor
-- É **empresário** que quer automatizar sem demitir gente
-- É **do governo** e precisa provar que IA sovereign é possível
-- É **desenvolvedor** experiente e quer me dar conselhos honestos
-
-**Manda mensagem:** Abra uma issue, me chama no LinkedIn, ou se tiver meu contato pessoal, manda um zap.
-
-> "Acredito que transparência é soberania. E que um trabalhador que aprende código tem o dever de usar isso para empoderar outros trabalhadores, não para substituí-los."
-
----
-
-*Última atualização: Junho de 2026 — LUDOC em produção, 20 skills operacionais, migrando de proletário da tecnologia para empreendedor honesto.*
+> Transparência é soberania. Um trabalhador que aprende a programar tem o dever de usar isso para empoderar outros trabalhadores — não para substituí-los.
