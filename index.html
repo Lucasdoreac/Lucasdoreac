@@ -1,133 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Dórea Cardoso - Sustainable Tech Developer</title>
-    <style>
-        :root {
-            --primary-color: #2e3440;
-            --secondary-color: #3b4252;
-            --accent-color: #88c0d0;
-            --text-color: #eceff4;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: var(--primary-color);
-            color: var(--text-color);
-        }
-
-        header {
-            background-color: var(--secondary-color);
-            padding: 2rem;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        h1, h2 {
-            color: var(--accent-color);
-        }
-
-        .tech-stack {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .tech-card {
-            background-color: var(--secondary-color);
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .social-links a {
-            color: var(--accent-color);
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border: 1px solid var(--accent-color);
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-
-        .social-links a:hover {
-            background-color: var(--accent-color);
-            color: var(--primary-color);
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Este portfólio mudou de endereço</title>
+<meta name="description" content="O portfólio de Lucas Dórea Cardoso agora fica em lucasdoreac.github.io.">
+<link rel="canonical" href="https://lucasdoreac.github.io/">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="3; url=https://lucasdoreac.github.io/">
+<style>
+:root{
+  --bg:#faf8f5; --bg-elev:#fff; --fg:#16130f; --fg-dim:#5c544a;
+  --line:#e0d9ce; --accent:#a8321e;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#12100e; --bg-elev:#1b1815; --fg:#f0ebe4; --fg-dim:#a09488;
+    --line:#2e2924; --accent:#e8654a;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#12100e; --bg-elev:#1b1815; --fg:#f0ebe4; --fg-dim:#a09488;
+  --line:#2e2924; --accent:#e8654a;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+  background:var(--bg);color:var(--fg);padding:24px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  line-height:1.65;
+}
+.card{
+  background:var(--bg-elev);border:1px solid var(--line);border-left:4px solid var(--accent);
+  border-radius:10px;padding:32px;max-width:520px;
+}
+.kicker{
+  font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--fg-dim);margin:0 0 12px;
+}
+h1{font-size:1.5rem;margin:0 0 14px;letter-spacing:-.01em}
+p{margin:0 0 18px;color:var(--fg-dim)}
+a.btn{
+  display:inline-block;padding:11px 20px;border-radius:99px;
+  background:var(--accent);color:#fff;text-decoration:none;font-weight:600;
+}
+a.btn:hover{opacity:.88}
+a.btn:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+.note{font-size:.85rem;margin:18px 0 0}
+.note a{color:var(--accent)}
+</style>
 </head>
 <body>
-    <header>
-        <h1>Lucas Dórea Cardoso</h1>
-        <p>Sustainable Tech Developer | Environmental Manager</p>
-    </header>
-
-    <div class="container">
-        <section>
-            <h2>About Me</h2>
-            <p>Environmental Manager turned Computer Science enthusiast, combining expertise in sustainable practices with modern web development. Creating eco-conscious technology solutions that prioritize both environmental impact and technical efficiency.</p>
-        </section>
-
-        <section class="tech-stack">
-            <div class="tech-card">
-                <h2>Backend</h2>
-                <ul>
-                    <li>PHP (Core Modules)</li>
-                    <li>MySQL</li>
-                    <li>Redis</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h2>Frontend</h2>
-                <ul>
-                    <li>HTML5/CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h2>Sustainability Focus</h2>
-                <ul>
-                    <li>Green Computing</li>
-                    <li>Energy-Efficient Code</li>
-                    <li>Resource Optimization</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Current Projects</h2>
-            <ul>
-                <li>Developing sustainable web applications</li>
-                <li>Creating environmental monitoring tools</li>
-                <li>Implementing green computing practices</li>
-            </ul>
-        </section>
-
-        <div class="social-links">
-            <a href="https://github.com/Lucasdoreac">GitHub</a>
-            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">LinkedIn</a>
-            <a href="mailto:lucasdorea.c@outlook.com">Email</a>
-        </div>
-    </div>
+  <div class="card">
+    <p class="kicker">Endereço atualizado</p>
+    <h1>Este portfólio foi unificado</h1>
+    <p>
+      Meus projetos agora ficam todos em um lugar só, organizados por eixo temático —
+      raça, classe, letramento político, alienação e infraestrutura soberana.
+    </p>
+    <p><a class="btn" href="https://lucasdoreac.github.io/">Ir para o portfólio →</a></p>
+    <p class="note">
+      Você será redirecionado automaticamente em alguns segundos.
+      O código desta página continua no <a href="https://github.com/Lucasdoreac">GitHub</a>.
+    </p>
+  </div>
 </body>
 </html>
