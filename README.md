@@ -29,7 +29,7 @@ Análise da demonização de práticas espirituais de matriz africana no Brasil,
 `HTML` `Pesquisa` `No ar`
 
 **[Reddit Language Analysis](https://github.com/Lucasdoreac/reddit-language-analysis)** — [🌐 acessar](https://lucasdoreac.github.io/reddit-language-analysis/) · *fev/2025*
-Pesquisa em PLN sobre *dog whistles*: termos aparentemente inócuos que carregam significado oculto e atravessam a moderação automática porque não usam as palavras que os filtros procuram. Coleta via API oficial, redes de co-ocorrência, classificação de contexto.
+Pesquisa em PLN sobre *dog whistles*: termos aparentemente inócuos que carregam significado oculto e atravessam a moderação automática porque não usam as palavras que os filtros procuram. Documenta os vetores de ofuscação — codificação, algospeak, meme multimodal e migração para plataformas sem moderação — como **método de detecção**, não como catálogo.
 `Python` `NLP` `Metodologia aberta`
 
 ### 🔧 Classe, trabalho e acesso
