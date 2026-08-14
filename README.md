@@ -52,7 +52,7 @@ Central de monitoramento para prestação de contas pública. Dinheiro do povo d
 Mapa de compasso político interativo feito **para quem não tem letramento político**. Atravessa as pautas históricas e as guerras culturais modernas com apoio de IA, áudio e recursos de acessibilidade. Política sem complicação, para todos.
 `TypeScript` `Gemini` `Acessibilidade`
 
-**[Guia de Cultivo Legal de Cannabis](https://github.com/Lucasdoreac/guia-cultivo-cannabis)** — [🌐 acessar](https://lucasdoreac.github.io/guia-cultivo-cannabis/) · *out/2025*
+**[Cannabis no Brasil: o racismo da proibição](https://github.com/Lucasdoreac/guia-cultivo-cannabis)** — [🌐 acessar](https://lucasdoreac.github.io/guia-cultivo-cannabis/) · *out/2025*
 Informação técnica sobre cultivo legal em português — com a origem racista da proibição documentada a partir da pesquisa de **Luísa Saad**, que mostrou como a lei de 1932 nasceu do pânico moral do pós-abolição, não de argumento científico. A guerra às drogas nunca foi sobre a planta.
 `No ar`
 
