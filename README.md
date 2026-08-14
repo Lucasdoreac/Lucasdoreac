@@ -20,7 +20,7 @@ Eu construo ferramentas. Sites, questionários, análises, mapas interativos. Ca
 
 ## Acervo
 
-**Isto é um acervo, não um mural do que estou fazendo esta semana.** São projetos construídos entre 2025 e 2026; cada um traz a data do último trabalho. Continuam no ar porque continuam servindo — não porque estejam em desenvolvimento ativo. Meu trabalho corrente é outro e fica fora daqui.
+**Isto é um acervo, não um mural do que estou fazendo esta semana.** São projetos construídos entre 2025 e 2026; cada um traz a data do último trabalho. A maioria continua no ar porque continua servindo — não porque esteja em desenvolvimento ativo. A exceção é *O nome que chegou tarde*, escrito agora e em manutenção. Meu trabalho remunerado é outro e fica fora daqui.
 
 ### 🩸 Raça, religião e pânico moral
 
@@ -57,6 +57,10 @@ Informação técnica sobre cultivo legal em português. A guerra às drogas nun
 `No ar`
 
 ### 🪞 Alienação e consciência
+
+**[O nome que chegou tarde](https://github.com/Lucasdoreac/neurodivergencia-diagnostico-tardio)** — [🌐 acessar](https://lucasdoreac.github.io/neurodivergencia-diagnostico-tardio/) · *ago/2026*
+Manual de psicoeducação para quem descobriu adulto que havia uma explicação. Camuflar-se para parecer neurotípico é a dupla consciência de Du Bois no corpo, e o preço está medido. Cobre burnout autista, múltiplos diagnósticos, dores invisíveis e o acesso negado no Brasil. Toda afirmação com fonte.
+`Psicoeducação` `Fontes citadas` `Em manutenção`
 
 **[DNP — Desempenho Não é Performance](https://github.com/Lucasdoreac/DNP)** · *mar/2026*
 Performance é velocidade bruta e métrica de visibilidade. Desempenho é chegar onde importa. Um protocolo e ecossistema construído sobre essa distinção — crítica prática à economia da atenção, com auditoria independente e infraestrutura fora da nuvem central.
