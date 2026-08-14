@@ -67,7 +67,7 @@ Performance é velocidade bruta e métrica de visibilidade. Desempenho é chegar
 `TypeScript` `Monorepo`
 
 **[Autoavaliação de Autossabotagem](https://github.com/Lucasdoreac/autoavaliacao-autossabotagem)** — [🌐 acessar](https://lucasdoreac.github.io/autoavaliacao-autossabotagem/) · *mar/2025*
-50 perguntas, 9 áreas, base em evidências científicas. Resultados em gráfico, recomendações, exportação em PDF. **100% local — nenhum dado sai do seu navegador.**
+50 perguntas em 9 áreas, com as fontes da literatura citadas e a ressalva de que **não é instrumento validado nem diagnóstico**. As interpretações foram reescritas sem linguagem de culpa: dificuldade persistente de iniciar tarefa não é falta de disciplina. **100% local — nenhum dado sai do seu navegador.**
 `JavaScript` `Privacidade por design` `No ar`
 
 **[O-Terminal](https://github.com/Lucasdoreac/o-terminal)** · *jan/2026*
