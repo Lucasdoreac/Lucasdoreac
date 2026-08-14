@@ -81,12 +81,12 @@ Governança de dados e defesa contra sabotagem interna em bancos relacionais.
 
 ---
 
-## Em construção (assumindo publicamente)
+## O que ainda quero escrever
 
-Dois projetos que são o centro do que quero fazer e ainda estão vazios. Registro aqui para me cobrar:
+Não são projetos em andamento — são as duas perguntas que o acervo ainda não responde. Registro aqui para não perder de vista:
 
-- **Alfabetização Emocional em Lares Tradicionais** — como a estrutura familiar patriarcal produz analfabetismo afetivo, e o que fazer com isso
-- **Questionário de Mapeamento de Perspectiva** — não é teste, não tem resposta errada: mapeia com empatia como cada pessoa processa a sobrecarga informacional do mundo atual
+- **Alfabetização emocional em lares tradicionais** — como a estrutura familiar patriarcal produz analfabetismo afetivo, e o que fazer com isso
+- **Mapeamento de perspectiva** — não é teste e não há resposta errada: mapear com empatia como cada pessoa processa a sobrecarga informacional do mundo atual
 
 ---
 
