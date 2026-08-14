@@ -26,9 +26,9 @@ Eu construo ferramentas. Sites, questionários, análises, mapas interativos. Ca
 Análise da demonização de práticas espirituais de matriz africana no Brasil, do Caso Evandro ao pânico satânico global. Cobre percepção pública, mecanismos de controle e resistência, perspectivas acadêmicas e depoimentos da comunidade.
 `HTML` `Pesquisa` `No ar`
 
-**[Reddit Language Analysis](https://github.com/Lucasdoreac/reddit-language-analysis)**
-Pesquisa em PLN sobre termos codificados e padrões de linguagem usados para disfarçar discurso de ódio em comunidades online. Coleta automatizada, análise estatística e visualização.
-`Python` `NLP` `Jupyter`
+**[Reddit Language Analysis](https://github.com/Lucasdoreac/reddit-language-analysis)** — [🌐 acessar](https://lucasdoreac.github.io/reddit-language-analysis/)
+Pesquisa em PLN sobre *dog whistles*: termos aparentemente inócuos que carregam significado oculto e atravessam a moderação automática porque não usam as palavras que os filtros procuram. Coleta via API oficial, redes de co-ocorrência, classificação de contexto.
+`Python` `NLP` `Metodologia aberta`
 
 ### 🔧 Classe, trabalho e acesso
 
