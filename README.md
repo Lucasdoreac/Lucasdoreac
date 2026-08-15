@@ -20,7 +20,7 @@ Eu construo ferramentas. Sites, questionários, análises, mapas interativos. Ca
 
 ## Acervo
 
-**Isto é um acervo, não um mural do que estou fazendo esta semana.** São projetos construídos entre 2025 e 2026; cada um traz a data do último trabalho. A maioria continua no ar porque continua servindo — não porque esteja em desenvolvimento ativo. A exceção é *O nome que chegou tarde*, escrito agora e em manutenção. Meu trabalho remunerado é outro e fica fora daqui.
+**Isto é um acervo, não um mural do que estou fazendo esta semana.** São projetos construídos entre 2025 e 2026; cada um traz a data do último trabalho. A maioria continua no ar porque continua servindo — não porque esteja em desenvolvimento ativo. As exceções são *O nome que chegou tarde* e *Ninguém nasce sem palavras*, escritos agora e em manutenção. Meu trabalho remunerado é outro e fica fora daqui.
 
 ### 🩸 Raça, religião e pânico moral
 
@@ -45,6 +45,12 @@ Orientação de carreira gratuita para calouros que não têm acesso a consultor
 **[EcoGov](https://github.com/Lucasdoreac/EcoGov)** · *mar/2026*
 Central de monitoramento para prestação de contas pública. Dinheiro do povo devia ser auditável pelo povo.
 `Em construção`
+
+### 💔 Gênero e afeto
+
+**[Ninguém nasce sem palavras](https://github.com/Lucasdoreac/Alfabetiza-o-Emocional-em-Lares-Tradicionais)** — [🌐 acessar](https://lucasdoreac.github.io/Alfabetiza-o-Emocional-em-Lares-Tradicionais/) · *ago/2026*
+Analfabetismo afetivo não é natureza masculina, é currículo. Como lares tradicionais ensinam meninos a não nomear medo, tristeza e afeto — a alexitimia masculina normativa de Levant — e quanto isso custa: 77,8% dos suicídios registrados no Brasil em 2021 foram de homens. Com a leitura de bell hooks de que essa amputação é condição da violência de gênero, não contrapeso a ela.
+`Psicoeducação` `Fontes citadas` `Em manutenção`
 
 ### 🧭 Letramento político e ideologia
 
@@ -87,9 +93,8 @@ Governança de dados e defesa contra sabotagem interna em bancos relacionais.
 
 ## O que ainda quero escrever
 
-Não são projetos em andamento — são as duas perguntas que o acervo ainda não responde. Registro aqui para não perder de vista:
+Não é projeto em andamento — é a pergunta que o acervo ainda não responde. Registro aqui para não perder de vista:
 
-- **Alfabetização emocional em lares tradicionais** — como a estrutura familiar patriarcal produz analfabetismo afetivo, e o que fazer com isso
 - **Mapeamento de perspectiva** — não é teste e não há resposta errada: mapear com empatia como cada pessoa processa a sobrecarga informacional do mundo atual
 
 ---
