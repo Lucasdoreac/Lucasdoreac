@@ -20,7 +20,7 @@ Eu construo ferramentas. Sites, questionários, análises, mapas interativos. Ca
 
 ## Acervo
 
-**Isto é um acervo, não um mural do que estou fazendo esta semana.** São projetos construídos entre 2025 e 2026; cada um traz a data do último trabalho. A maioria continua no ar porque continua servindo — não porque esteja em desenvolvimento ativo. As exceções são *O nome que chegou tarde* e *Ninguém nasce sem palavras*, escritos agora e em manutenção. Meu trabalho remunerado é outro e fica fora daqui.
+**Isto é um acervo, não um mural do que estou fazendo esta semana.** São projetos construídos entre 2025 e 2026; cada um traz a data do último trabalho. A maioria continua no ar porque continua servindo — não porque esteja em desenvolvimento ativo. As exceções são *O nome que chegou tarde*, *Ninguém nasce sem palavras* e *Mapeamento de Perspectiva*, escritos agora e em manutenção. Meu trabalho remunerado é outro e fica fora daqui.
 
 ### 🩸 Raça, religião e pânico moral
 
@@ -76,6 +76,10 @@ Performance é velocidade bruta e métrica de visibilidade. Desempenho é chegar
 50 perguntas em 9 áreas, com as fontes da literatura citadas e a ressalva de que **não é instrumento validado nem diagnóstico**. As interpretações foram reescritas sem linguagem de culpa: dificuldade persistente de iniciar tarefa não é falta de disciplina. **100% local — nenhum dado sai do seu navegador.**
 `JavaScript` `Privacidade por design` `No ar`
 
+**[Mapeamento de Perspectiva](https://github.com/Lucasdoreac/Question-rio-de-Perspectiva)** — [🌐 acessar](https://lucasdoreac.github.io/Question-rio-de-Perspectiva/) · *ago/2026*
+Como você navega a era da sobrecarga. Seis dimensões, cada uma com **dois polos legítimos** — sem nota, sem perfil, sem resposta errada. Cada posição vem com o que dá e o que custa, porque os dois extremos têm custo documentado. Apoiado em necessidade de fechamento cognitivo, evitação de notícias (Reuters 2025) e *doomscrolling*. **100% local.**
+`Fontes citadas` `Privacidade por design` `No ar`
+
 **[O-Terminal](https://github.com/Lucasdoreac/o-terminal)** · *jan/2026*
 ARG no universo SCP sobre uma máquina que prevê você com 94,7% de precisão e conhece o que você nunca contou. Ficção sobre vigilância preditiva — e sobre o que é mais assustador que a vigilância: ela se importar.
 `Narrativa` `Remotion`
@@ -88,14 +92,6 @@ Foi minha tentativa de provar que dá para rodar orquestração de agentes local
 **[Core-Forense-Secure-Ledger](https://github.com/Lucasdoreac/Core-Forense-Secure-Ledger-)** · *jun/2026*
 Governança de dados e defesa contra sabotagem interna em bancos relacionais.
 `TypeScript` `PostgreSQL`
-
----
-
-## O que ainda quero escrever
-
-Não é projeto em andamento — é a pergunta que o acervo ainda não responde. Registro aqui para não perder de vista:
-
-- **Mapeamento de perspectiva** — não é teste e não há resposta errada: mapear com empatia como cada pessoa processa a sobrecarga informacional do mundo atual
 
 ---
 
